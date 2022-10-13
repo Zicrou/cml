@@ -1,0 +1,42 @@
+.rsvp-yes-cml-logo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.rsvp-yes-logo-title {
+    color: #e43193;
+    font-size: 24px;
+    font-weight: 700;
+}
+.rsvp-paypal-btn {
+    text-align: center;
+}
+.rsvp-paypal-btn button {
+    background: none;
+    border: none;
+    margin-top: 5%;
+}
+
+.rsvp-yes-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.rsvp-yes-title b {
+    color: black;
+    opacity: 0.5;
+}
+
+.rsvp-yes-content {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rsvp-yes-content p {
+    color: #000000;
+    opacity: 0.5;
+}

@@ -1,0 +1,12 @@
+body {
+    background-image: linear-gradient(#eeeeee, #2bbbd3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+  }
+  .cml-logo {
+    width: 24%;
+    margin: auto;
+    padding-top: 25px;
+}

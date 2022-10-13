@@ -1,0 +1,422 @@
+.image-upload img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.submit-btn {
+  border: 1px solid wheat;
+  color: white;
+  padding: 5px 24px 5px 24px;
+  border-radius: 5px;
+  background: none;
+}
+
+.form-section {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.select-input {
+  width: 100%;
+  margin-bottom: 5px;
+  outline-color: #dcf5f8;
+  outline-style: solid;
+  outline-width: 7px;
+  font-size: 16px;
+}
+
+.name-input {
+  margin-bottom: 22px;
+}
+
+.calender-input {
+  margin-bottom: 22px;
+}
+
+.tel-input {
+  margin-top: -27px;
+}
+
+.sub-heading {
+  text-align: center;
+}
+
+.sub-heading b {
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.logo-text {
+  text-align: center;
+}
+
+.logo-text b {
+  color: #e43193;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.image-upload {
+  text-align: center;
+}
+
+.lock-icon {
+  position: relative;
+  left: 766px;
+  bottom: 35px;
+  font-size: 24px;
+}
+
+.uploadcare--widget__button_type_open {
+  background: #acb5c100;
+  color: #fff;
+  border: none;
+}
+
+.uploadcare--widget__button {
+  border: none;
+  padding: 0.4em 1em;
+  width: auto;
+  position: absolute;
+  margin: 18% 0 0 -2%;
+  color: #0c0c0c;
+  opacity: 0.5;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.uploadcare--widget__button_type_open:hover {
+  position: absolute;
+  left: 32%;
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.uploadcare--widget__button:hover {
+  background: #ffffff00;
+  color: #0c0c0c;
+  border: none;
+  box-shadow: none;
+}
+
+.uploadcare--widget__button_type_open:focus,
+.uploadcare--widget__button_type_open:hover {
+  background: #ffffff00;
+}
+
+.uploadcare--widget__button:focus {
+  outline-color: #ffffff00;
+  outline-offset: 1px;
+}
+
+.uploadcare--dialog__powered-by {
+  display: none;
+}
+
+.uploadcare--widget__file-name {
+  display: none;
+}
+
+.uploadcare--widget__file-size {
+  display: none;
+}
+
+.uploadcare--widget__button:focus {
+  outline-color: #ffffff00;
+  outline-offset: 1px;
+  display: none;
+}
+
+.uploadcare--widget__button_type_open:active {
+  background: #ffffff00;
+}
+
+.uploadcare--widget__button_type_open {
+  left: 270px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 414px) {
+  .cml-logo {
+    width: 50%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .select-input {
+    width: 75%;
+    margin: auto;
+    outline-color: #dcf5f8;
+    outline-style: solid;
+    outline-width: 7px;
+
+    font-size: 16px;
+    margin-left: 44px;
+  }
+
+  .lock-icon {
+    position: relative;
+    left: 94%;
+    bottom: 35px;
+  }
+
+  .image-upload img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 24%;
+    top: 25%;
+    font-size: 20px;
+  }
+
+  .tel-input {
+    margin-top: -27px;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .cml-logo {
+    width: 46%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .select-input {
+    width: 75%;
+    margin: auto;
+    outline-color: #dcf5f8;
+    outline-style: solid;
+    outline-width: 7px;
+
+    font-size: 16px;
+    margin-left: 47px;
+  }
+
+  .image-upload img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .lock-icon {
+    position: relative;
+    left: 94%;
+    bottom: 30px;
+  }
+
+  .uploadcare--widget__button {
+    border: none;
+    padding: 0.4em 1em;
+    width: auto;
+    position: absolute;
+    top: 392px;
+    right: 60px;
+    color: #0c0c0c;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .tel-input {
+    margin-top: -27px;
+  }
+
+  .uploadcare--dialog__powered-by {
+    display: none;
+  }
+
+  .uploadcare--widget__file-name {
+    display: none;
+  }
+
+  .uploadcare--widget__file-size {
+    display: none;
+  }
+
+  .uploadcare--widget__button_type_open:active {
+    background: #ffffff00;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 27%;
+    top: 24%;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .cml-logo {
+    width: 50%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .uploadcare--widget__button {
+    border: none;
+    padding: 0.4em 1em;
+    width: auto;
+    position: absolute;
+    top: 392px;
+    right: 254px;
+    color: #0c0c0c;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .select-input {
+    width: 100%;
+    margin: auto;
+    outline-color: #dcf5f8;
+    outline-style: solid;
+    outline-width: 7px;
+    font-size: 16px;
+  }
+
+  .tel-input {
+    margin-top: -27px;
+  }
+
+  .uploadcare--dialog__powered-by {
+    display: none;
+  }
+
+  .uploadcare--widget__file-name {
+    display: none;
+  }
+
+  .uploadcare--widget__file-size {
+    display: none;
+  }
+
+  .uploadcare--widget__button_type_open:active {
+    background: #ffffff00;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 24%;
+    top: 24%;
+    font-size: 21px;
+  }
+
+  .lock-icon {
+    position: relative;
+    left: 108%;
+    bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .cml-logo {
+    width: 36%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .uploadcare--widget__button {
+    border: none;
+    padding: 0.4em 1em;
+    width: auto;
+    position: absolute;
+    top: 392px;
+    right: 378px;
+    color: #0c0c0c;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .tel-input {
+    margin-top: -27px;
+  }
+
+  .lock-icon {
+    position: relative;
+    left: 108%;
+    bottom: 30px;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 23%;
+    top: 24%;
+    font-size: 29px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .cml-logo {
+    width: 26%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .uploadcare--widget__button {
+    border: none;
+    padding: 0.4em 1em;
+    width: auto;
+    position: absolute;
+    top: 392px;
+    right: 378px;
+    color: #0c0c0c;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .tel-input {
+    margin-top: -27px;
+  }
+
+  .lock-icon {
+    position: relative;
+    left: 104%;
+    bottom: 30px;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 31%;
+    top: 19%;
+    font-size: 29px;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .cml-logo {
+    width: 26%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .uploadcare--widget__button {
+    border: none;
+    padding: 0.4em 1em;
+    width: auto;
+    position: absolute;
+    top: 392px;
+    right: 378px;
+    color: #0c0c0c;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .tel-input {
+    margin-top: -27px;
+  }
+
+  .lock-icon {
+    position: relative;
+    left: 104%;
+    bottom: 30px;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 32%;
+    top: 191px;
+    font-size: 29px;
+  }
+}

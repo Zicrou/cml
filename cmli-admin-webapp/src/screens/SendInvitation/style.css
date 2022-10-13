@@ -1,0 +1,436 @@
+/* import Header from "../../components/Header";
+<Header /> */
+.new-event-send-invitations-logo-title {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+input#everyone {
+  margin-right: 10px;
+}
+input#newly-added {
+  margin-right: 10px;
+}
+input#custom-selection {
+  margin-right: 10px;
+}
+span.badge-info {
+  margin-bottom: 0px;
+  margin-left: 1px;
+}
+
+.new-event-send-invitations-events-btn {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.new-event-send-invitations-people-btn {
+  text-align: center;
+}
+
+.new-event-send-invitations-events-btn button {
+  padding: 7px 40px 7px 40px;
+  background-color: rgb(228, 49, 147);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.new-event-send-invitations-people-btn button {
+  padding: 7px 40px 7px 40px;
+  background-color: rgb(43, 187, 211);
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.new-event-send-invitations-title {
+  text-align: center;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.new-event-send-invitations-content {
+  background-color: rgba(43, 187, 211, 0.25);
+  margin-right: 30px;
+  margin-top: 4%;
+  padding: 0% 2% 2% 2%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.send-invitations-women-select-button {
+  margin: 0px 5px 5px 0px;
+  border-radius: 4px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #ffdcef;
+  border: 3px solid white;
+}
+
+.send-invitations-men-select-button {
+  margin: 0px 5px 5px 0px;
+  border-radius: 4px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(43, 187, 211, 0.25);
+  border: 3px solid white;
+}
+.send-invitation-scroll {
+  width: 100%;
+  height: 550px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+input.send-invitation-checkbox {
+  zoom: 1.5;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+  margin-left: 8px;
+}
+span.send-invitations-blank {
+  padding: 6px 26px 6px 26px;
+  margin-right: 8px;
+}
+
+span.send-invitations-RSVP {
+  padding: 6px 11px 6px 11px;
+  margin-right: 8px;
+}
+
+span.send-invitations-thumbs-up {
+  padding: 6px 19px 6px 19px;
+  margin-right: 8px;
+  color: black;
+}
+
+span.send-invitations-thumbs-down {
+  padding: 6px 19px 6px 19px;
+  margin-right: 8px;
+  color: black;
+  background-color: rgb(242, 132, 192);
+}
+
+span.send-invitations-age {
+  padding: 6px 15px 6px 15px;
+  margin-right: 8px;
+}
+
+span.send-invitations-status {
+  padding: 6px 13px 6px 13px;
+  margin-right: 8px;
+}
+
+span.send-invitations-events {
+  padding: 6px 20px 6px 20px;
+  margin-right: 13px;
+}
+
+.send-invitations-personal-info {
+  width: 100%;
+  margin-left: 0%;
+  text-align: right;
+}
+
+.send-invitations-personal-info-headings {
+  margin-left: 75%;
+}
+
+.send-invitations-rsvp-info-headings {
+  margin-left: 18px;
+  margin-right: 10px;
+}
+
+.send-invitations-age-info-headings {
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+.send-invitations-status-info-headings {
+  margin-left: -4px;
+  margin-right: 10px;
+}
+
+.send-invitations-events-info-headings {
+  margin-left: -4px;
+  margin-right: 10px;
+}
+
+.send-invitations-remove-space {
+  margin-top: 0px;
+}
+
+.send-invitations-top-content {
+  margin-bottom: 7%;
+}
+
+.send-invitations-text-input input {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 56px;
+  font-size: 20px;
+  color: rgb(134, 142, 150);
+  padding-left: 21px;
+  border-radius: 4px;
+  border: none;
+}
+
+.send-invitations-text-input input::placeholder {
+  font-size: 20px;
+  color: rgb(134, 142, 150);
+}
+
+.send-invitations-textarea textarea::placeholder {
+  font-size: 20px;
+  color: rgb(134, 142, 150);
+}
+
+.send-invitations-textarea textarea {
+  padding-left: 21px;
+  padding-top: 20px;
+  width: 100%;
+  color: rgb(134, 142, 150);
+  border-radius: 4px;
+  font-size: 20px;
+  border: none;
+}
+
+.send-invitations-radio-btns {
+  font-size: 18px;
+  margin-right: 7%;
+}
+
+.who-is-invited-back-btn {
+  text-align: left;
+  margin-top: 7%;
+}
+
+.who-is-invited-back-btn input {
+  font-size: 18px;
+  background-color: rgb(228, 49, 147);
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+
+.who-is-invited-next-btn {
+  text-align: right;
+  margin-top: 7%;
+}
+
+.who-is-invited-next-btn input {
+  font-size: 18px;
+  background-color: rgb(228, 49, 147);
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 736px) {
+  .who-is-invited-next-btn {
+    text-align: center;
+    margin-top: 7%;
+  }
+
+  .who-is-invited-back-btn {
+    text-align: center;
+    margin-top: 7%;
+  }
+
+  .send-invitations-age {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .send-invitations-status {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .send-invitations-events {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .send-invitations-personal-info {
+    width: 100%;
+    margin-left: 2%;
+    text-align: left;
+  }
+
+  .new-event-send-invitations-cml-logo {
+    text-align: center;
+  }
+
+  .new-event-send-invitations-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+
+  .send-invitations-personal-info-headings {
+    margin-left: 13%;
+  }
+}
+
+@media only screen and (min-width: 737px) and (max-width: 992px) {
+  .new-event-send-invitations-events-btn button {
+    padding: 5px 32px 5px 32px;
+    background-color: rgb(228, 49, 147);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+
+  .new-event-send-invitations-people-btn button {
+    padding: 5px 32px 5px 32px;
+    background-color: rgb(43, 187, 211);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+
+  .send-invitations-personal-info-headings {
+    margin-left: 50%;
+  }
+
+  .send-invitations-blank {
+    padding: 6px 26px 6px 26px;
+    margin-right: 8px;
+  }
+
+  .send-invitations-RSVP {
+    padding: 6px 11px 6px 11px;
+    margin-right: 8px;
+  }
+
+  .send-invitations-thumbs-up {
+    padding: 6px 19px 6px 19px;
+    margin-right: 8px;
+    color: black;
+  }
+
+  .send-invitations-thumbs-down {
+    padding: 6px 19px 6px 19px;
+    margin-right: 8px;
+    color: black;
+    background-color: rgb(242, 132, 192);
+  }
+
+  .send-invitations-age {
+    padding: 6px 15px 6px 15px;
+    margin-right: 8px;
+  }
+
+  .send-invitations-status {
+    padding: 6px 13px 6px 13px;
+    margin-right: 8px;
+  }
+
+  .send-invitations-events {
+    padding: 6px 20px 6px 20px;
+    margin-right: 13px;
+  }
+
+  .send-invitations-personal-info {
+    width: 88%;
+    margin-left: 17%;
+  }
+
+  .future-event-heart-icon {
+    font-size: 21px;
+    margin-right: 5px;
+  }
+
+  .send-invitations-cml-logo {
+    text-align: center;
+  }
+
+  .new-event-send-invitations-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .send-invitations-personal-info-headings {
+    margin-left: 62%;
+  }
+
+  .send-invitations-blank {
+    padding: 6px 26px 6px 26px;
+    margin-right: 8px;
+  }
+
+  .send-invitations-RSVP {
+    padding: 6px 11px 6px 11px;
+    margin-right: 8px;
+  }
+
+  .send-invitations-thumbs-up {
+    padding: 6px 19px 6px 19px;
+    margin-right: 8px;
+    color: black;
+  }
+
+  .send-invitations-thumbs-down {
+    padding: 6px 19px 6px 19px;
+    margin-right: 8px;
+    color: black;
+    background-color: rgb(242, 132, 192);
+  }
+
+  .send-invitations-age {
+    padding: 6px 15px 6px 15px;
+    margin-right: 8px;
+  }
+
+  .send-invitations-status {
+    padding: 6px 13px 6px 13px;
+    margin-right: 8px;
+  }
+
+  .send-invitations-events {
+    padding: 6px 20px 6px 20px;
+    margin-right: 13px;
+  }
+
+  .send-invitations-personal-info {
+    width: 88%;
+    margin-left: 17%;
+  }
+
+  .send-invitations-cml-logo {
+    text-align: center;
+  }
+
+  .new-event-send-invitations-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .send-invitations-personal-info-headings {
+    margin-left: 75%;
+  }
+}

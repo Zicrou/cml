@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CML</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/3342089602.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row who-is-invited-event-row">
+      <div class="col-md-2 col-sm-12 col-lg-2">
+        <div class="who-is-invited-event-cml-logo">
+          <div class="who-is-invited-event-logo">
+            <img src="./images/cml-logo.png" alt="" />
+          </div>
+          <div class="who-is-invited-event-logo-title">
+            <b>Administration</b>
+          </div>
+        </div>
+        <div class="who-is-invited-event-btn">
+          <button>Events</button>
+        </div>
+        <div class="who-is-invited-people-btn">
+          <button>People</button>
+        </div>
+      </div>
+      <div class="col-md-10 col-sm-12 col-lg-10">
+        <div class="who-is-invited-event-details-title">
+          <b>New Event: Who is invited?</b>
+        </div>
+        <div class="who-is-invited-event-details-content">
+          <form action="">
+            <div class="row">
+              <div class="col-md-12 who-is-invited-event-text-input">
+                <input type="text" placeholder="Name" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="men">Men</label><br />
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="women">Women</label><br />
+                <input type="radio" id="other" name="gender" value="other" />
+                <label for="both">Both</label>
+              </div>
+              <div class="col-md-10">
+                <div class="row">
+                  <div class="col-md-4 col-lg-4">
+                    <div class="form-group who-is-invited-event-text-input">
+                      <select class="custom-select custom-select-lg" placeholder="select  " required>
+                        <option selected>Marital Status</option>
+                        <option value="1">Married</option>
+                        <option value="2">Single</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-lg-3">
+                    <div class="col-md-12 who-is-invited-event-number-input">
+                      <input type="number" placeholder="Min Age" />
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-lg-3">
+                    <div class="col-md-12 who-is-invited-event-number-input">
+                      <input type="number" placeholder="Max Age" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group who-is-invited-event-text-input">
+                      <select class="custom-select custom-select-lg" required>
+                        <option selected>Past Events Attended</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="row">
+            <div class="col-md-5">
+              <p style="color:rgba(0, 0, 0, 0.5);">9 results</p>
+              <div class="left-who-is-invited-results">
+                <div data-toggle="buttons" class="btn btn-default women-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Abayo Stevens</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default men-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Nnenna Jioke</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default women-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Anne-Marije Mar...</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default women-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Opi Watihana</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default men-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Andrei Masharin</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default men-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Ohta Kin</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default women-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name">Higashi Mako</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default women-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Torsten Paulsson</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default men-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Lubosek Hnilo</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="who-is-invited-back-btn">
+                <input type="Submit" value="Back: When and Where?" />
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="caret-right">
+                <i class="fa fa-caret-right"></i>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <p style="color:rgba(0, 0, 0, 0.5);">6 invited</p>
+              <div class="right-who-is-invited-results">
+                <div data-toggle="buttons" class="btn btn-default men-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Juan Jose Esteve</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default women-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Ayesha Lawrence</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default women-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Amarachi Nkechi</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default men-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Neeshaan El Pasha</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default men-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name"> Thoma Fulloway</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-toggle="buttons" class="btn btn-default women-who-is-invited-select-button">
+                  <div class="row left-matches-event-select-btn">
+                    <div class="col-md-12 col-sm-12 col-lg-6 who-is-invited-lbl">
+                      <label for="profile-name">Jumaima Al Nour</label>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                      <div class="who-is-invited-personal-info">
+                        <span class="badge badge-pill badge-info who-is-invited-age">29</span>
+                        <span class="badge badge-pill badge-info who-is-invited-status">S</span>
+                        <span class="badge badge-pill badge-info who-is-invited-events">3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="who-is-invited-next-btn">
+                <input type="Submit" value="Next: Send Invitations" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sf-pro-display;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "sf-pro-display";
+  font-style: normal;
+  src: url(./fonts/FontsFree-Net-SFProDisplay-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: "copperplate";
+  src: url(./fonts/copperplate.ttf) format('truetype');
+  font-style: normal;
+}
+.logo-title {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: -20px;
+  margin-left: 1%;
+  font-family: copperplate;
+}
+.cml-admin-logo {
+  margin-bottom: 20px;
+  margin-left: 2%;
+}
+
+

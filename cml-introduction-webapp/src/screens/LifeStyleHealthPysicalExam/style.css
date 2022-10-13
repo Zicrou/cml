@@ -1,0 +1,154 @@
+.physicalexam-cml-logo {
+  margin-bottom: 19px;
+}
+.physicalexam-sub-heading-1 {
+  color: #080808;
+  font-size: 24px;
+  opacity: 0.5;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.physicalexam-sub-heading-2 p {
+  font-size: 28px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.physicalexam-header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.physicalexam-btns button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+}
+
+.physicalexam-custom-radio-btn.active {
+  background-color: #70dae4;
+  color: black;
+  border: none;
+}
+
+.physicalexam-custom-radio-btn {
+  margin: 5px;
+  border-radius: 4px;
+  width: 100%;
+  padding-top: 15px;
+  text-align: left;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #e4f6f8;
+  color: #999999;
+}
+
+.physicalexam-btns {
+  text-align: center;
+  margin-top: 20px;
+}
+.physicalexam-continue-btn{
+  margin-left: 10px;
+}
+
+.radiobtns {
+  display: block;
+}
+
+.custom-radio-btn input[type='radio'] {
+  box-sizing: border-box;
+}
+.physicalexam-radiobtns {
+  display: block;
+}
+
+.physicalexam-custom-radio-btn input[type='radio'] {
+  padding: 0;
+  opacity: 0;
+  margin-left: -13px;
+}
+
+@media only screen and (max-width: 414px) and (min-width: 375px) {
+ 
+
+  .physicalexam-custom-radio-btn {
+    margin: 5px;
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #e4f6f8;
+    color: #999999;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .physicalexam-custom-radio-btn {
+    margin: 5px;
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #e4f6f8;
+    color: #999999;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .physicalexam-custom-radio-btn {
+    margin: 5px;
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #e4f6f8;
+    color: #999999;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+
+  .physicalexam-custom-radio-btn {
+    margin: 5px;
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #e4f6f8;
+    color: #999999;
+  }
+}
+@media only screen and (min-width: 1025px) {
+
+  .physicalexam-custom-radio-btn {
+    margin: 5px;
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #e4f6f8;
+    color: #999999;
+  }
+}

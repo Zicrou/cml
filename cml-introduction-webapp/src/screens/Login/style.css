@@ -1,0 +1,1954 @@
+.toast {
+  flex-basis: 350px;
+  max-width: 472px;
+  font-size: .875rem;
+  background-color: rgba(255,255,255,.85);
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.1);
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%);
+  opacity: 0;
+  border-radius: .25rem;
+}
+.toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 145px;
+  left: 55px;
+  width: 83%;
+  z-index: 1;
+}
+.verify-toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 145px;
+  left: 55px;
+  width: 83%;
+  z-index: 1;
+}
+.rsvp-message{
+  font-size: 16px;
+}
+.closeMessage {
+  padding: 6px 50px 7px 28px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background: #2bbbd3;
+  color: white;
+  width: 5%;
+}
+.verifySuccessfully{
+  font-size: 16px;
+}
+
+.alreadyExists{
+  font-size: 16px;
+  color: red;
+}
+
+.error-toast-position {
+  text-align: center;
+  position: absolute;
+  color: red;
+  top: 145px;
+  left: 55px;
+  width: 83%;
+  z-index: 1;
+}
+input.sign-in-form-field {
+  padding-left: 44px;
+}
+.login-lock-icon {
+  font-size: 20px;
+  padding-left: 9px;
+  padding-top: 9px;
+}
+.logged-in-content-styling {
+  display: flex;
+}
+.logged-in-checkbox1 {
+  margin-top: 10px;
+}
+.logo-text {
+  color: #e43193;
+  font-size: 24px;
+  font-weight: 700;
+}
+input[type='checkbox'] {
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: 3px;
+}
+.error-login {
+  width: 56%;
+  position: absolute;
+  top: 60px;
+}
+
+.show {
+  display: none;
+}
+
+.CML-logo {
+  padding-top: 4px;
+}
+
+.husband-btn {
+  background: white;
+  padding: 5px 27px 5px 21px;
+  border-radius: 4px;
+  color: #798586;
+}
+
+.cml-logo-img {
+  margin-left: 22px;
+  margin-bottom: 19px;
+}
+
+.wife-btn {
+  background: white;
+  padding: 5px 42px 5px 36px;
+  border-radius: 4px;
+  color: #798586;
+}
+
+.form-heading {
+  color: #000000;
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sign-up-img {
+  text-align: center;
+}
+
+.sign-up-img img {
+  height: 720px;
+  width: 492px;
+  margin-top: -80px;
+}
+
+.sign-up-form {
+  margin-left: 294px;
+  margin-top: 180px;
+}
+
+.logged-in-content-1 {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.input-container i {
+  position: absolute;
+}
+
+.sign-in-input-container {
+  width: 38%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.input-container {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.message-icon {
+  padding: 9px;
+  font-size: 20px;
+}
+
+.lock-icon {
+  padding: 9px;
+  font-size: 20px;
+}
+
+.form-field {
+  width: 100%;
+  padding: 7px 5px 7px 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 42px;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-content {
+  font-size: 12px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.join-now-btn button {
+  padding: 6px 81px 7px 79px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background: #2bbbd3;
+  color: white;
+  width: 100%;
+}
+
+.facebook-icon {
+  padding: 8px 1px 1px 8px;
+  font-size: 25px;
+  color: #06065d;
+  width: 32px;
+  position: absolute;
+}
+
+.fb-field {
+  width: 100%;
+  padding: 7px 5px 7px 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 67px;
+  border: none;
+  border-radius: 4px;
+  background: white;
+}
+
+.google-field {
+  width: 100%;
+  padding: 7px 5px 7px 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 73px;
+  border: none;
+  border-radius: 4px;
+  background: white;
+}
+
+.google-icon {
+  font-size: 25px;
+  padding: 8px 3px 3px 8px;
+  color: #3b3bc5;
+  width: 32px;
+  position: absolute;
+}
+
+.divider {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.divider:before,
+.divider:after {
+  content: '';
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+  height: 0.9em;
+  border-bottom: 1px solid #fff;
+  margin: 0 2% 0 -55%;
+}
+
+.divider:after {
+  margin: 0 -55% 0 2%;
+}
+
+.form-field::placeholder {
+  color: #798586;
+}
+
+.sign-in {
+  background-color: #7dd7e8;
+}
+
+.flex {
+  display: flex;
+}
+
+.fb-login-input {
+  width: 95%;
+  padding: 8px 5px 5px 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 42px;
+  border: none;
+  border-radius: 4px;
+  background: white;
+}
+
+.google-login-input {
+  width: 95%;
+  padding: 8px 5px 5px 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 42px;
+  border: none;
+  border-radius: 4px;
+  background: white;
+}
+
+input.fb-field[value] {
+  color: #3c5a96;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+input.google-field[value] {
+  color: #3c5a96;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sign-in-form-field {
+  width: 95%;
+  padding: 8px 5px 8px 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 42px;
+  border: none;
+  border-radius: 4px;
+}
+.sign-in-btn-1 button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.sign-in-btn-new button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  margin-top: 20px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.g-fb-icons-content {
+  margin-top: 10px;
+}
+
+.sign-in-form-content {
+  margin-top: 10px;
+}
+
+.google-login {
+  margin-left: 220px;
+}
+
+.seperator {
+  color: black;
+  opacity: 0.5;
+  margin-top: 14px;
+  margin-left: 13px;
+}
+
+.logged-in-checkbox label {
+  color: black;
+  opacity: 0.5;
+}
+
+input.fb-login-input {
+  background: #3c5a96;
+  color: white;
+}
+
+.facebook-login img {
+  background: white;
+  padding: 3px 1px 2px 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 4px;
+  width: 26px;
+}
+
+.sign-in-lock-icon {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+  .toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: 145px;
+    left: 30px;
+    width: 83%;
+    z-index: 1;
+  }
+  .verify-toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: 145px;
+    left: 30px;
+    width: 83%;
+    z-index: 1;
+  }
+  
+
+  .error-toast-position {
+    text-align: center;
+    position: absolute;
+    color: red;
+    top: 145px;
+    left: 30px;
+    width: 83%;
+    z-index: 1;
+  }
+  input.sign-in-form-field {
+    padding-left: 32px;
+}
+ 
+  .husband-btn {
+    background: white;
+    padding: 5px 34px 5px 30px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .wife-btn {
+    background: white;
+    padding: 5px 48px 5px 49px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .cml-signin-logo {
+    text-align: center;
+  }
+
+  .sign-in-btn-1 {
+    text-align: center;
+  }
+
+  .cml-logo-img {
+    margin-left: 0px;
+    margin-bottom: 19px;
+  }
+
+  .sign-up-img img {
+    height: 548px;
+    width: 354px;
+    margin-top: 23px;
+  }
+
+  .sign-up-form {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  input.fb-login-input[value] {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .google-login {
+    margin-left: 5px;
+  }
+
+  .sign-in-form-field {
+    width: 95%;
+    padding: 6px 5px 6px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .sign-in-lock-icon {
+    font-size: 20px;
+    margin-top: 9px;
+    margin-left: 7px;
+    position: absolute;
+  }
+
+  .message-icon {
+    padding: 9px;
+    font-size: 20px;
+    position: absolute;
+  }
+
+  .sign-in-input-container {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  input.fb-field[value] {
+    color: #3c5a96;
+    padding-left: 100px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  input.google-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    padding-left: 112px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sign-in-input-container {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .husband-btn {
+    background: white;
+    padding: 5px 40px 5px 35px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .wife-btn {
+    background: white;
+    padding: 5px 60px 5px 55px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .sign-up-img {
+    text-align: center;
+  }
+
+  .sign-up-img img {
+    height: 548px;
+    width: 354px;
+    margin-top: 23px;
+  }
+
+  .sign-up-form {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  input.fb-login-input[value] {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -1px;
+  }
+
+  .google-login {
+    margin-left: 5px;
+  }
+
+  .sign-in-form-field {
+    width: 95%;
+    padding: 6px 5px 6px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 35px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  input.fb-field[value] {
+    color: #3c5a96;
+    padding-left: 100px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  input.google-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    padding-left: 112px;
+    font-weight: 400;
+  }
+
+  .sign-in-lock-icon {
+    font-size: 20px;
+    margin-top: 9px;
+    margin-left: 7px;
+    position: absolute;
+  }
+
+  .message-icon {
+    padding: 9px;
+    font-size: 20px;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: -12px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.verify-toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 90px;
+  left: 190px;
+  width: 50%;
+  z-index: 1;
+}
+
+.error-toast-position {
+  text-align: center;
+  position: absolute;
+  color: red;
+  top: -12px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+  .sign-in {
+    background-color: #7dd7e8;
+    height: 76px;
+  }
+
+  .husband-btn {
+    background: white;
+    padding: 5px 10px 5px 7px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .wife-btn {
+    background: white;
+    padding: 5px 28px 5px 21px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .sign-up-img {
+    text-align: center;
+  }
+
+  .sign-up-img img {
+    height: 548px;
+    width: 354px;
+    margin-top: 0px;
+  }
+
+  .sign-up-form {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+
+  input.fb-login-input[value] {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  input.fb-field[value] {
+    color: #3c5a96;
+    padding-left: 48px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  input.google-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    padding-left: 54px;
+    font-weight: 400;
+  }
+
+  .google-login {
+    margin-left: 5px;
+  }
+
+  .sign-in-form-field {
+    width: 95%;
+    padding: 12px 5px 6px 8px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 35px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .sign-in-lock-icon {
+    font-size: 20px;
+    margin-top: 9px;
+    margin-left: 7px;
+    position: absolute;
+  }
+
+  .message-icon {
+    padding: 9px;
+    font-size: 20px;
+    position: absolute;
+  }
+
+  .sign-in-form-content {
+    margin-top: 10px;
+    margin-right: 65px;
+  }
+
+  .google-login-input {
+    width: 95%;
+    padding: 8px 5px 5px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 35px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .fb-login-input {
+    width: 95%;
+    padding: 8px 5px 5px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 35px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .sign-in-input-container {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .logged-in-checkbox1 {
+    margin-left: -73px;
+  }
+  .seperator {
+    color: black;
+    opacity: 0.5;
+    margin-top: 14px;
+    margin-left: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .husband-btn {
+    background: white;
+    padding: 5px 36px 5px 23px;
+    border-radius: 4px;
+    color: #798586;
+  }
+  .toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: 101px;
+    left: -9px;
+    width: 87%;
+    z-index: 1;
+}
+.verify-toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 176px;
+  left: 249px;
+  width: 39%;
+  z-index: 1;
+}
+.error-toast-position {
+  text-align: center;
+  position: absolute;
+  color: red;
+  top: 101px;
+  left: -9px;
+  width: 87%;
+  z-index: 1;
+}
+
+  .sign-in-btn-1 {
+    text-align: right;
+  }
+
+  .wife-btn {
+    background: white;
+    padding: 5px 55px 5px 46px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .sign-up-img {
+    text-align: center;
+  }
+
+  .seperator {
+    color: black;
+    opacity: 0.5;
+    margin-top: 14px;
+    margin-left: 49px;
+  }
+
+  .sign-up-img img {
+    height: 700px;
+    width: 500px;
+    margin-top: -70px;
+  }
+
+  .sign-up-form {
+    margin-left: 40px;
+    margin-top: 140px;
+  }
+
+  input.fb-login-input[value] {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .google-login {
+    margin-left: 5px;
+  }
+
+  .sign-in-form-field {
+    width: 95%;
+    padding: 13px 5px 8px 5px;
+    text-align: left;
+    font-size: 9px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .sign-in-lock-icon {
+    font-size: 21px;
+    margin-top: 6px;
+    margin-left: 7px;
+
+    position: absolute;
+  }
+
+  .message-icon {
+    padding: 9px;
+    font-size: 20px;
+    position: absolute;
+  }
+
+  .logged-in-checkbox label {
+    font-size: 14px;
+  }
+
+  .logged-in-checkbox {
+    margin-top: 10px;
+  }
+
+  .logged-in-checkbox p {
+    font-size: 14px;
+  }
+
+  .sign-in-input-container {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  input.fb-field[value] {
+    color: #3c5a96;
+    padding-left: 80px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  input.google-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    padding-left: 96px;
+    font-weight: 400;
+  }
+
+  .logged-in-checkbox input {
+    right: 87px;
+    top: 15px;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sign-in {
+    background-color: #7dd7e8;
+    height: 78px;
+  }
+
+  .logo-text {
+    color: #e43193;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .CML-logo {
+    padding-top: 4px;
+  }
+
+  .husband-btn {
+    background: white;
+    padding: 8px 25px 8px 10px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .wife-btn {
+    background: white;
+    padding: 8px 40px 8px 30px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .form-heading {
+    color: #000000;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .sign-up-img {
+    text-align: center;
+  }
+
+  .sign-up-img img {
+    height: 720px;
+    width: 492px;
+    margin-top: -80px;
+  }
+
+  .sign-up-form {
+    margin-left: 211px;
+    margin-top: 180px;
+  }
+
+
+  .sign-in-input-container {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .input-container {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .message-icon {
+    padding: 9px;
+    font-size: 20px;
+  }
+
+  .lock-icon {
+    padding: 9px;
+    font-size: 20px;
+  }
+
+  .form-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .form-content {
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+  }
+
+  .join-now-btn button {
+    padding: 6px 81px 7px 79px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: #2bbbd3;
+    color: white;
+    width: 100%;
+  }
+
+  .facebook-icon {
+    padding: 8px 1px 1px 8px;
+    font-size: 25px;
+    color: #06065d;
+    width: 32px;
+    position: absolute;
+  }
+
+  .fb-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 67px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .google-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 73px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .google-icon {
+    font-size: 25px;
+    padding: 8px 3px 3px 8px;
+    color: #3b3bc5;
+    width: 32px;
+    position: absolute;
+  }
+
+  .divider {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+  }
+
+  .divider:before,
+  .divider:after {
+    content: '';
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 0.9em;
+    border-bottom: 1px solid #fff;
+    margin: 0 2% 0 -55%;
+  }
+
+  .divider:after {
+    margin: 0 -55% 0 2%;
+  }
+
+  .form-field::placeholder {
+    color: #798586;
+  }
+
+  .sign-in {
+    background-color: #7dd7e8;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .fb-login-input {
+    width: 95%;
+    padding: 8px 5px 5px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .google-login-input {
+    width: 95%;
+    padding: 8px 5px 5px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  input.fb-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  input.google-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .sign-in-form-field {
+    width: 95%;
+    padding: 8px 5px 8px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .logged-in-checkbox input {
+    right: 85px;
+    top: 15px;
+    position: absolute;
+  }
+
+  .g-fb-icons-content {
+    margin-top: 10px;
+  }
+
+  .sign-in-form-content {
+    margin-top: 10px;
+  }
+
+  .google-login {
+    margin-left: 81px;
+  }
+
+  .seperator {
+    color: black;
+    opacity: 0.5;
+    margin-top: 14px;
+    margin-left: 13px;
+  }
+
+  .logged-in-checkbox label {
+    color: black;
+    opacity: 0.5;
+  }
+
+  .logged-in-checkbox p {
+    color: black;
+    opacity: 0.5;
+  }
+
+  input.fb-login-input {
+    background: #3c5a96;
+    color: white;
+  }
+
+  .facebook-login img {
+    background: white;
+    padding: 3px 1px 2px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 4px;
+    width: 26px;
+  }
+
+  .sign-in-lock-icon {
+    font-size: 20px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7px;
+  }
+
+  .message-icon {
+    padding: 9px;
+    font-size: 20px;
+    position: absolute;
+  }
+  .toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: 143px;
+    left: 67px;
+    width: 69%;
+    z-index: 1;
+}
+.verify-toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 143px;
+  left: 67px;
+  width: 69%;
+  z-index: 1;
+}
+.error-toast-position {
+  text-align: center;
+  position: absolute;
+  color: red;
+  top: 143px;
+  left: 67px;
+  width: 69%;
+  z-index: 1;
+}
+}
+
+@media only screen and (min-width: 1366px) {
+  .sign-in {
+    background-color: #7dd7e8;
+    height: 78px;
+  }
+
+  .logo-text {
+    color: #e43193;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .CML-logo {
+    padding-top: 4px;
+  }
+
+  .husband-btn {
+    background: white;
+    padding: 8px 37px 8px 22px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .wife-btn {
+    background: white;
+    padding: 8px 48px 8px 42px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .form-heading {
+    color: #000000;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .sign-up-img {
+    text-align: center;
+  }
+
+  .sign-up-img img {
+    height: 720px;
+    width: 492px;
+    margin-top: -80px;
+  }
+
+  .sign-up-form {
+    margin-left: 211px;
+    margin-top: 180px;
+  }
+
+  .input-container i {
+    position: absolute;
+  }
+
+  .sign-in-input-container {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .input-container {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .message-icon {
+    padding: 9px;
+    font-size: 20px;
+  }
+
+ 
+
+  .form-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .form-content {
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+  }
+
+  .join-now-btn button {
+    padding: 6px 81px 7px 79px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: #2bbbd3;
+    color: white;
+    width: 100%;
+  }
+
+  .facebook-icon {
+    padding: 8px 1px 1px 8px;
+    font-size: 25px;
+    color: #06065d;
+    width: 32px;
+    position: absolute;
+  }
+
+  .fb-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 67px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .google-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 73px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .google-icon {
+    font-size: 25px;
+    padding: 8px 3px 3px 8px;
+    color: #3b3bc5;
+    width: 32px;
+    position: absolute;
+  }
+
+  .divider {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+  }
+
+  .divider:before,
+  .divider:after {
+    content: '';
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 0.9em;
+    border-bottom: 1px solid #fff;
+    margin: 0 2% 0 -55%;
+  }
+
+  .divider:after {
+    margin: 0 -55% 0 2%;
+  }
+
+  .form-field::placeholder {
+    color: #798586;
+  }
+
+  .sign-in {
+    background-color: #7dd7e8;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .fb-login-input {
+    width: 95%;
+    padding: 8px 5px 5px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .google-login-input {
+    width: 95%;
+    padding: 8px 5px 5px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  input.fb-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  input.google-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .sign-in-form-field {
+    width: 95%;
+    padding: 8px 5px 8px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .logged-in-checkbox {
+    margin-top: 10px;
+    margin-left: 31px;
+  }
+
+  .logged-in-checkbox input {
+    right: 85px;
+    top: 15px;
+    position: absolute;
+  }
+
+  .g-fb-icons-content {
+    margin-top: 10px;
+  }
+
+  .sign-in-form-content {
+    margin-top: 10px;
+  }
+
+  .google-login {
+    margin-left: 81px;
+  }
+
+  .seperator {
+    color: black;
+    opacity: 0.5;
+    margin-top: 14px;
+    margin-left: 13px;
+  }
+
+  .logged-in-checkbox label {
+    color: black;
+    opacity: 0.5;
+  }
+
+  .logged-in-checkbox p {
+    color: black;
+    opacity: 0.5;
+  }
+
+  input.fb-login-input {
+    background: #3c5a96;
+    color: white;
+  }
+
+  .facebook-login img {
+    background: white;
+    padding: 3px 1px 2px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 4px;
+    width: 26px;
+  }
+
+  .sign-in-lock-icon {
+    font-size: 20px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7px;
+  }
+
+  .message-icon {
+    padding: 9px;
+    font-size: 20px;
+    position: absolute;
+  }
+  .toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: 143px;
+    left: 59px;
+    width: 69%;
+    z-index: 1;
+}
+.verify-toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 143px;
+  left: 59px;
+  width: 69%;
+  z-index: 1;
+}
+.error-toast-position {
+  text-align: center;
+  position: absolute;
+  color: red;
+  top: 143px;
+  left: 59px;
+  width: 69%;
+  z-index: 1;
+}
+}
+@media only screen and (min-width: 1440px) {
+  .sign-in {
+    background-color: #7dd7e8;
+    height: 78px;
+  }
+
+  .logo-text {
+    color: #e43193;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .CML-logo {
+    padding-top: 4px;
+  }
+
+  .husband-btn {
+    background: white;
+    padding: 8px 37px 8px 22px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .wife-btn {
+    background: white;
+    padding: 8px 48px 8px 42px;
+    border-radius: 4px;
+    color: #798586;
+  }
+
+  .form-heading {
+    color: #000000;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .sign-up-img {
+    text-align: center;
+  }
+
+  .sign-up-img img {
+    height: 720px;
+    width: 492px;
+    margin-top: -80px;
+  }
+
+  .sign-up-form {
+    margin-left: 211px;
+    margin-top: 180px;
+  }
+
+  .input-container i {
+    position: absolute;
+  }
+
+  .sign-in-input-container {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .input-container {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .message-icon {
+    padding: 9px;
+    font-size: 20px;
+  }
+
+  .lock-icon {
+    padding: 9px;
+    font-size: 20px;
+  }
+
+  .form-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .form-content {
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+  }
+
+  .join-now-btn button {
+    padding: 6px 81px 7px 79px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: #2bbbd3;
+    color: white;
+    width: 100%;
+  }
+
+  .facebook-icon {
+    padding: 8px 1px 1px 8px;
+    font-size: 25px;
+    color: #06065d;
+    width: 32px;
+    position: absolute;
+  }
+
+  .fb-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 67px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .google-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 73px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .google-icon {
+    font-size: 25px;
+    padding: 8px 3px 3px 8px;
+    color: #3b3bc5;
+    width: 32px;
+    position: absolute;
+  }
+
+  .divider {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+  }
+
+  .divider:before,
+  .divider:after {
+    content: '';
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 0.9em;
+    border-bottom: 1px solid #fff;
+    margin: 0 2% 0 -55%;
+  }
+
+  .divider:after {
+    margin: 0 -55% 0 2%;
+  }
+
+  .form-field::placeholder {
+    color: #798586;
+  }
+
+  .sign-in {
+    background-color: #7dd7e8;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .fb-login-input {
+    width: 95%;
+    padding: 8px 5px 5px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  .google-login-input {
+    width: 95%;
+    padding: 8px 5px 5px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+  }
+
+  input.fb-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  input.google-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .sign-in-form-field {
+    width: 95%;
+    padding: 8px 5px 8px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .logged-in-checkbox {
+    margin-top: 10px;
+    margin-left: 31px;
+  }
+
+  .logged-in-checkbox input {
+    right: 85px;
+    top: 15px;
+    position: absolute;
+  }
+
+  .g-fb-icons-content {
+    margin-top: 10px;
+  }
+
+  .sign-in-form-content {
+    margin-top: 10px;
+  }
+
+  .google-login {
+    margin-left: 81px;
+  }
+
+  .seperator {
+    color: black;
+    opacity: 0.5;
+    margin-top: 14px;
+    margin-left: 13px;
+  }
+
+  .logged-in-checkbox label {
+    color: black;
+    opacity: 0.5;
+  }
+
+  .logged-in-checkbox p {
+    color: black;
+    opacity: 0.5;
+  }
+
+  input.fb-login-input {
+    background: #3c5a96;
+    color: white;
+  }
+
+  .facebook-login img {
+    background: white;
+    padding: 3px 1px 2px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 4px;
+    width: 26px;
+  }
+
+  .sign-in-lock-icon {
+    font-size: 20px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7px;
+  }
+
+  .message-icon {
+    padding: 9px;
+    font-size: 20px;
+    position: absolute;
+  }
+  .toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: 143px;
+    left: 59px;
+    width: 80%;
+    z-index: 1;
+}
+.verify-toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 226px;
+  left: 436px;
+  width: 65%;
+  z-index: 1;
+}
+.error-toast-position {
+  text-align: center;
+  position: absolute;
+  color: red;
+  top: 143px;
+  left: 59px;
+  width: 80%;
+  z-index: 1;
+}
+ 
+}
+@media only screen and (min-width: 1536px) {
+  .toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: 143px;
+    left: 53px;
+    width: 69%;
+    z-index: 1;
+}
+.verify-toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 222px;
+  left: 442px;
+  width: 28%;
+  z-index: 1;
+}
+.error-toast-position {
+  text-align: center;
+  position: absolute;
+  color: red;
+  top: 143px;
+  left: 53px;
+  width: 69%;
+  z-index: 1;
+}
+}
+@media only screen and (min-width: 1792px) {
+  .toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: 143px;
+    left: 44px;
+    width: 69%;
+    z-index: 1;
+}
+.verify-toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 225px;
+  left: 492px;
+  width: 29%;
+  z-index: 1;
+}
+.error-toast-position {
+  text-align: center;
+    position: absolute;
+    color: red;
+    top: 143px;
+    left: 44px;
+    width: 69%;
+    z-index: 1;
+}
+}
+@media only screen and (min-width: 2560px) {
+  .toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: 143px;
+    left: 10px;
+    width: 69%;
+    z-index: 1;
+}
+.verify-toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 222px;
+  left: 649px;
+  width: 69%;
+  z-index: 1;
+}
+.error-toast-position {
+  text-align: center;
+  position: absolute;
+  color: red;
+  top: 143px;
+  left: 10px;
+  width: 69%;
+  z-index: 1;
+}
+}
+@media only screen and (min-width: 3072px) {
+  .toast-position {
+    text-align: center;
+    position: absolute;
+    color: green;
+    top: 143px;
+    left: -10px;
+    width: 69%;
+    z-index: 1;
+}
+.verify-toast-position {
+  text-align: center;
+  position: absolute;
+  color: green;
+  top: 223px;
+  left: 762px;
+  width: 17%;
+  z-index: 1;
+}
+.error-toast-position {
+  text-align: center;
+  position: absolute;
+  color: red;
+  top: 143px;
+  left: -10px;
+  width: 69%;
+  z-index: 1;
+}
+}

@@ -1,0 +1,408 @@
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+.future-event-logo-title {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.future-event-events-btn {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.future-event-people-btn {
+  text-align: center;
+}
+
+.future-event-events-btn button {
+  padding: 7px 40px 7px 40px;
+  background-color: rgb(228, 49, 147);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.future-event-people-btn button {
+  padding: 7px 40px 7px 40px;
+  background-color: rgb(43, 187, 211);
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.event-details-future-event-title {
+  text-align: center;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 8%;
+}
+
+.event-details-future-event-map img {
+  width: 100%;
+  height: 288px;
+}
+
+.event-details-future-event-content {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.event-details-future-event-content {
+  background-color: rgba(43, 187, 211, 0.25);
+  margin-right: 30px;
+  margin-top: 4%;
+  padding: 2%;
+}
+
+.people-match-btns {
+  display: flex;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.future-event-details-people-btn button {
+  padding: 5px 35px 5px 35px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 4px 0px 0px 4px;
+}
+
+.future-event-match-btn button {
+  padding: 5px 35px 5px 35px;
+  border: none;
+  background-color: rgb(43, 187, 211);
+  border-radius: 0px 4px 4px 0px;
+  border-left: 1px solid white;
+}
+
+.event-details-future-event-location {
+  font-size: 21px;
+}
+
+.future-events-women-select-button {
+  margin: 5px;
+  border-radius: 4px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #ffdcef;
+  border: 3px solid white;
+}
+
+.future-events-men-select-button {
+  margin: 5px;
+  border-radius: 4px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(43, 187, 211, 0.25);
+  border: 3px solid white;
+}
+.future-event-blank {
+  padding: 7px 23px 6px 30px;
+  margin-right: 8px;
+}
+.future-event-RSVP {
+  padding: 6px 11px 6px 11px;
+  margin-right: 8px;
+}
+
+.future-event-thumbs-up {
+  padding: 6px 20px 6px 20px;
+  margin-right: 8px;
+  color: black;
+}
+.future-event-thumbs-down {
+  padding: 6px 20px 6px 20px;
+  margin-right: 8px;
+  color: black;
+  background-color: rgb(242, 132, 192);
+}
+.future-event-age {
+  padding: 6px 15px 6px 15px;
+  margin-right: 8px;
+}
+
+.future-event-status {
+  padding: 6px 13px 6px 13px;
+  margin-right: 8px;
+}
+
+.future-event-events {
+  padding: 6px 20px 6px 20px;
+  margin-right: 13px;
+}
+
+.future-event-personal-info {
+  width: 65%;
+  margin-left: 46%;
+}
+
+.future-event-heart-icon {
+  font-size: 21px;
+  margin-right: 13px;
+}
+
+.future-events-personal-info-headings {
+  margin-left: 75%;
+}
+
+.future-event-yes-info-headings {
+  margin-left: -4px;
+  margin-right: 10px;
+}
+.future-event-rsvp-info-headings {
+  margin-left: 18px;
+  margin-right: 10px;
+}
+.future-event-age-info-headings {
+  margin-left: 8px;
+  margin-right: 10px;
+}
+.future-event-status-info-headings {
+  margin-left: -4px;
+  margin-right: 10px;
+}
+.future-event-events-info-headings {
+  margin-left: -4px;
+  margin-right: 10px;
+}
+
+.remove-space {
+  margin-top: -7px;
+}
+.future-event-top-content {
+  margin-bottom: 7%;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 736px) {
+  .future-event-tick {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+    color: black;
+  }
+  .future-event-age-info-headings {
+    margin-left: 8px;
+    margin-right: 21px;
+  }
+  .future-event-yes-info-headings {
+    margin-left: -4px;
+    margin-right: 3px;
+  }
+
+  .future-event-age {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .future-event-status {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .future-event-events {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .future-event-personal-info {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .future-event-heart-icon {
+    font-size: 21px;
+    margin-right: 1px;
+  }
+
+  span.info-headings {
+    margin-left: 10px;
+    margin-right: -1px;
+  }
+
+  .future-event-cml-logo {
+    text-align: center;
+  }
+
+  .event-details-future-event-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+
+  .future-events-personal-info-headings {
+    margin-left: 13%;
+  }
+}
+
+@media only screen and (min-width: 737px) and (max-width: 992px) {
+  .future-event-events-btn button {
+    padding: 5px 32px 5px 32px;
+    background-color: rgb(228, 49, 147);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+
+  .future-event-people-btn button {
+    padding: 5px 32px 5px 32px;
+    background-color: rgb(43, 187, 211);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  .future-events-personal-info-headings {
+    margin-left: 50%;
+  }
+  .future-event-blank {
+    padding: 7px 23px 6px 30px;
+    margin-right: 8px;
+  }
+  .future-event-RSVP {
+    padding: 6px 11px 6px 11px;
+    margin-right: 8px;
+  }
+
+  .future-event-thumbs-up {
+    padding: 6px 20px 6px 20px;
+    margin-right: 8px;
+    color: black;
+  }
+  .future-event-thumbs-down {
+    padding: 6px 20px 6px 20px;
+    margin-right: 8px;
+    color: black;
+    background-color: rgb(242, 132, 192);
+  }
+  .future-event-age {
+    padding: 6px 15px 6px 15px;
+    margin-right: 8px;
+  }
+
+  .future-event-status {
+    padding: 6px 13px 6px 13px;
+    margin-right: 8px;
+  }
+
+  .future-event-events {
+    padding: 6px 20px 6px 20px;
+    margin-right: 13px;
+  }
+
+  .future-event-personal-info {
+    width: 88%;
+    margin-left: 17%;
+  }
+
+  .future-event-heart-icon {
+    font-size: 21px;
+    margin-right: 5px;
+  }
+
+  span.info-headings {
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+
+  .event-listing-cml-logo {
+    text-align: center;
+  }
+
+  .event-details-future-event-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .future-events-personal-info-headings {
+    margin-left: 62%;
+  }
+  .future-event-blank {
+    padding: 7px 23px 6px 30px;
+    margin-right: 8px;
+  }
+  .future-event-RSVP {
+    padding: 6px 11px 6px 11px;
+    margin-right: 8px;
+  }
+
+  .future-event-thumbs-up {
+    padding: 6px 20px 6px 20px;
+    margin-right: 8px;
+    color: black;
+  }
+  .future-event-thumbs-down {
+    padding: 6px 20px 6px 20px;
+    margin-right: 8px;
+    color: black;
+    background-color: rgb(242, 132, 192);
+  }
+  .future-event-age {
+    padding: 6px 15px 6px 15px;
+    margin-right: 8px;
+  }
+
+  .future-event-status {
+    padding: 6px 13px 6px 13px;
+    margin-right: 8px;
+  }
+
+  .future-event-events {
+    padding: 6px 20px 6px 20px;
+    margin-right: 13px;
+  }
+
+  .future-event-personal-info {
+    width: 88%;
+    margin-left: 17%;
+  }
+
+  .future-event-heart-icon {
+    font-size: 21px;
+    margin-right: 5px;
+  }
+
+  span.info-headings {
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+
+  .event-listing-cml-logo {
+    text-align: center;
+  }
+
+  .event-details-future-event-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .future-events-personal-info-headings {
+    margin-left: 75%;
+  }
+  .future-event-age-info-headings {
+    margin-left: 8px;
+    margin-right: 9px;
+  }
+}

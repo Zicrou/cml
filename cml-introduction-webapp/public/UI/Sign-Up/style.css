@@ -1,0 +1,391 @@
+.CML-logo {
+    padding-top: 4px;
+}
+
+.logo-text {
+    color: #e43193;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-in-btn {
+    padding-top: 20px;
+}
+
+.sign-in-btn button {
+    background-color: #2bbbd3;
+    border: none;
+    padding: 5px 12px 5px 12px;
+    color: white;
+    float: right;
+}
+
+.husband-btn {
+    background: white;
+    padding: 5px 27px 5px 21px;
+    border-radius: 4px;
+    color: #798586;
+}
+
+.wife-btn {
+    background: white;
+    padding: 5px 42px 5px 36px;
+    border-radius: 4px;
+    color: #798586;
+}
+
+.form-heading {
+    color: #000000;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sign-up-img {
+    text-align: center;
+}
+
+.sign-up-img img {
+    height: 720px;
+    width: 492px;
+    margin-top: -80px;
+}
+
+.sign-up-form {
+    margin-left: 294px;
+    margin-top: 180px;
+}
+
+.input-container i {
+    position: absolute;
+}
+
+.input-container {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.message-icon {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.lock-icon {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.form-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 42px;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-content {
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.join-now-btn button {
+    padding: 6px 81px 7px 79px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: #2bbbd3;
+    color: white;
+    width: 100%;
+}
+
+.fb-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 67px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+}
+
+.google-field {
+    width: 100%;
+    padding: 7px 5px 7px 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 73px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+}
+
+.facebook-icon {
+    padding: 8px 1px 1px 8px;
+    font-size: 25px;
+    color: #06065d;
+    width: 32px;
+    position: absolute;
+}
+
+.google-icon {
+    font-size: 25px;
+    padding: 8px 1px 1px 8px;
+    color: #3b3bc5;
+    width: 32px;
+    position: absolute;
+}
+
+.divider {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.divider:before,
+.divider:after {
+    content: "";
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 0.9em;
+    border-bottom: 1px solid #fff;
+    margin: 0 2% 0 -55%;
+}
+
+.divider:after {
+    margin: 0 -55% 0 2%;
+}
+
+.form-field::placeholder {
+    color: #798586;
+}
+
+input.fb-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input.google-field[value] {
+    color: #3c5a96;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 414px) and (min-width: 375px) {
+    .sign-in-btn button {
+        margin-top: -103px;
+    }
+
+    .sign-in-btn {
+        padding-top: 20px;
+    }
+
+    .CML-logo {
+        padding-top: 4px;
+        width: 39%;
+    }
+
+    .husband-btn {
+        background: white;
+        padding: 5px 22px 5px 18px;
+        border-radius: 4px;
+        color: #798586;
+    }
+
+    .wife-btn {
+        background: white;
+        padding: 5px 44px 5px 47px;
+        border-radius: 4px;
+        color: #798586;
+    }
+
+    .sign-up-img {
+        text-align: center;
+    }
+
+    .sign-up-img img {
+        height: 548px;
+        width: 354px;
+        margin-top: 23px;
+    }
+
+    .sign-up-form {
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+    .logo-text {
+        color: #e43193;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .sign-in-btn button {
+        background-color: #2bbbd3;
+        border: none;
+        padding: 5px 12px 5px 12px;
+        color: white;
+        float: right;
+        margin-top: -103px;
+    }
+
+    .sign-in-btn {
+        padding-top: 20px;
+    }
+
+    .CML-logo {
+        padding-top: 4px;
+        width: 39%;
+    }
+
+    .husband-btn {
+        background: white;
+        padding: 5px 40px 5px 35px;
+        border-radius: 4px;
+        color: #798586;
+    }
+
+    .wife-btn {
+        background: white;
+        padding: 5px 56px 5px 56px;
+        border-radius: 4px;
+        color: #798586;
+    }
+
+    .sign-up-img {
+        text-align: center;
+    }
+
+    .sign-up-img img {
+        height: 548px;
+        width: 354px;
+        margin-top: 23px;
+    }
+
+    .sign-up-form {
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .logo-text {
+        color: #e43193;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .sign-in-btn button {
+        background-color: #2bbbd3;
+        border: none;
+        padding: 5px 12px 5px 12px;
+        color: white;
+        float: right;
+        margin-top: -103px;
+    }
+
+    .sign-in-btn {
+        padding-top: 142px;
+    }
+
+    .CML-logo {
+        padding-top: 4px;
+        width: 39%;
+    }
+
+    .husband-btn {
+        background: white;
+        padding: 5px 10px 5px 9px;
+        border-radius: 4px;
+        color: #798586;
+    }
+
+    .wife-btn {
+        background: white;
+        padding: 5px 28px 5px 21px;
+        border-radius: 4px;
+        color: #798586;
+    }
+
+    .sign-up-img {
+        text-align: center;
+    }
+
+    .sign-up-img img {
+        height: 548px;
+        width: 354px;
+        margin-top: -70px;
+    }
+
+    .sign-up-form {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .logo-text {
+        color: #e43193;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .sign-in-btn button {
+        background-color: #2bbbd3;
+        border: none;
+        padding: 5px 12px 5px 12px;
+        color: white;
+        float: right;
+        margin-top: -103px;
+    }
+
+    .sign-in-btn {
+        padding-top: 142px;
+    }
+
+    .CML-logo {
+        padding-top: 4px;
+        width: 39%;
+    }
+
+    .husband-btn {
+        background: white;
+        padding: 5px 36px 5px 23px;
+        border-radius: 4px;
+        color: #798586;
+    }
+
+    .wife-btn {
+        background: white;
+        padding: 5px 55px 5px 46px;
+        border-radius: 4px;
+        color: #798586;
+    }
+
+    .sign-up-img {
+        text-align: center;
+    }
+
+    .sign-up-img img {
+        height: 700px;
+        width: 500px;
+        margin-top: -70px;
+    }
+
+    .sign-up-form {
+        margin-left: 40px;
+        margin-top: 140px;
+    }
+}

@@ -1,0 +1,58 @@
+.wealth-cml-logo {
+  margin-bottom: 19px;
+}
+.wealth-sub-heading-1 {
+  color: #080808;
+  font-size: 24px;
+  opacity: 0.5;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.wealth-sub-heading-2 p {
+  font-size: 28px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.wealth-header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wealth-btns button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+}
+
+.wealth-btns {
+  text-align: center;
+  margin-top: 20px;
+}
+.wealth-continue-btn {
+  margin-left: 10px;
+}
+
+.wealth-details-textarea {
+  border: 7px solid #dcf5f8;
+  border-radius: 4px;
+   width: 100%;
+   margin-top: 10px;
+ }
+ 
+ .wealth-textarea {
+   width: 100%;
+   margin: auto;
+ }
+
+.wealth-details-textarea::placeholder {
+  padding-left: 5px;
+  padding-top: 3px;
+}
+
+
+

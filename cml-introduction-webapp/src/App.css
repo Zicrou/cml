@@ -1,0 +1,58 @@
+body {
+  background-image: linear-gradient(#eeeeee, #2bbbd3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sf-pro-display;
+}
+@font-face {
+  font-family: 'sf-pro-display';
+  src: url(./fonts/FontsFree-Net-SFProDisplay-Regular.ttf) format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'copperplate';
+  src: url(./fonts/copperplate.ttf) format('truetype');
+  font-style: normal;
+}
+.logo-title {
+  color: #e43193;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: -20px;
+  font-family: copperplate;
+  padding: 0;
+}
+.questionnaire-main-section{
+  margin-top: -60px;
+}
+i.fas.fa-angle-left {
+  color: #00BBC5;
+  cursor: pointer;
+}
+.left-arrow-icon{
+  font-size: 42px;
+  position: relative;
+  top: 80px;
+}
+.logout-main {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.logout-btn button {
+  padding: 5px 10px 5px 10px;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  background: transparent;
+  border: 2px solid;
+}
+.cml-logo-title {
+text-align: center;
+}
+textarea {
+  outline: none;
+}

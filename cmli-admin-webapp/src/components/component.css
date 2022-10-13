@@ -1,0 +1,50 @@
+.event-btn {
+    margin-top: 20%;
+  }
+  
+  .event-btn button {
+    padding: 7px 40px 7px 40px;
+    background-color: rgb(228, 49, 147);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .people-btn button {
+    padding: 7px 40px 7px 40px;
+    background-color: rgb(43, 187, 211);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  .event-listing-cml-logo {
+    text-align: center;
+  }
+  .header-buttons {
+    text-align: center;
+  }
+  .logout-btn {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .logout-btn button {
+    padding: 7px 40px 7px 40px;
+    background-color: rgb(43, 187, 211);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  @media only screen and (max-width: 600px) {
+    .logout-btn {
+      text-align: center;
+      padding-top: 10px;
+      padding-right: 1px;
+    }
+  }
+  

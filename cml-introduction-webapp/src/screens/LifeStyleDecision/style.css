@@ -1,0 +1,71 @@
+.decision-cml-logo {
+  margin-bottom: 19px;
+}
+.decision-sub-heading-1 {
+  color: #080808;
+  font-size: 24px;
+  opacity: 0.5;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.decision-sub-heading-2 p {
+  font-size: 28px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.decision-header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.decision-btns button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+}
+
+.decision-btns {
+  text-align: center;
+}
+.decision-continue-btn{
+  margin-left: 10px;
+}
+
+.decision-details-textarea {
+  width: 100%;
+  margin-top: 30px;
+  border: 7px solid #dcf5f8;
+  border-radius: 4px;
+}
+
+.decision-travel-textarea {
+  width: 100%;
+  margin: auto;
+}
+.decision-textarea {
+  width: 100%;
+  margin: auto;
+}
+.decision-details-textarea::placeholder {
+  padding-left: 5px;
+  padding-top: 3px;
+}
+
+.radiobtns {
+  display: block;
+}
+
+.custom-radio-btn input[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+  opacity: 0;
+  margin-left: -13px;
+}
+
+
+

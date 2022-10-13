@@ -1,0 +1,302 @@
+.badge-info {
+    padding: 6px 17px 6px 17px;
+    margin-right: 7px;
+}
+
+.card-title {
+    margin-bottom: 3px;
+    margin-top: -15px;
+    opacity: 0.5;
+    color: black;
+}
+
+.rounded-circle {
+    width: 91%;
+    height: auto;
+    margin-top: 1px;
+}
+
+.rounded-circle {
+    border: 5px solid #2BBBD3;
+}
+
+.pink-border-img {
+    border: 5px solid #E43193;
+}
+
+.event-details-card {
+    max-width: 359px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 211px;
+    margin-bottom: 20px;
+    background: #E6F7F9;
+    height: 108px;
+}
+
+.no-gutters {
+    margin-right: 75px;
+    margin-left: -64px;
+}
+
+.header-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-title {
+    color: #E43193;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sub-heading1 {
+    font-size: 36px;
+    color: #E43193;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.sub-heading2 {
+    color: #080808;
+    font-size: 24px;
+    opacity: 0.5;
+    font-weight: 700;
+}
+
+.sub-heading3 {
+    padding-bottom: 30px;
+    color: black;
+    opacity: 0.5;
+}
+
+.heart-icon1 {
+    color: red;
+    padding-top: 5px;
+}
+
+.heart-icon2 {
+    color: red;
+    padding-top: 5px;
+}
+
+.heart-icon3 {
+    color: red;
+    padding-top: 5px;
+}
+
+.heart-icon4 {
+    color: red;
+    padding-top: 5px;
+}
+
+.heart-icon5 {
+    color: red;
+    padding-top: 5px;
+}
+
+.heart-icon6 {
+    padding-top: 5px;
+    color: red;
+}
+
+.heart-icon {
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .no-gutters {
+        margin-right: 0;
+        margin-left: -60px;
+    }
+
+    .rounded-circle {
+        width: 31%;
+        margin: auto;
+    }
+
+    .event-details-card {
+        max-width: 224px;
+        margin: auto;
+        margin-top: 20px;
+        height: 78px;
+        padding-left: 31px;
+        background: #E6F7F9;
+    }
+
+    .card-title {
+        margin-bottom: 3px;
+        margin-top: -29px;
+        position: relative;
+        top: -68px;
+        left: 74px;
+        opacity: 0.5;
+        color: black;
+        font-size: 17px;
+    }
+
+    .badges {
+        position: relative;
+        bottom: 68px;
+        left: 59px;
+    }
+
+    .heart-icon {
+        position: relative;
+        left: 76px;
+        bottom: 69px;
+        font-size: 20px;
+    }
+
+    .cml-logo {
+        width: 47%;
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    .logo-title {
+        color: #E43193;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .sub-heading1 {
+        font-size: 25px;
+        color: #E43193;
+        font-weight: 700;
+    }
+
+    .sub-heading2 {
+        color: black;
+        opacity: 0.5;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .badge-info {
+        padding: 6px 17px 6px 17px;
+        margin-right: -2px;
+        margin-left: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .no-gutters {
+        margin-right: -146px;
+        margin-left: -60px;
+    }
+
+    .rounded-circle {
+        width: 57%;
+        margin: auto;
+    }
+
+    .event-details-card {
+        max-width: 486px;
+        margin: auto;
+        margin-top: 20px;
+        height: 95px;
+        margin-bottom: 20px;
+        background: #E6F7F9;
+        margin-left: 68px;
+    }
+
+    .card-title {
+        margin-bottom: 3px;
+        opacity: 0.5;
+        color: black;
+        position: relative;
+        left: -74px;
+    }
+
+    .badges {
+        position: relative;
+        bottom: 84px;
+        left: 60px;
+    }
+
+    .heart-icon {
+        position: relative;
+        bottom: 81px;
+        font-size: 21px;
+        right: 73px;
+    }
+
+    .cml-logo {
+        width: 49%;
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    .badge-info {
+        padding: 6px 17px 6px 17px;
+        margin-right: 149px;
+        margin-left: -136px;
+        margin-top: 86px;
+    }
+}
+
+@media only screen and (min-width: 992px)and (max-width: 1024px) {
+    .no-gutters {
+        margin-right: -20px;
+        margin-left: -60px;
+    }
+
+    .rounded-circle {
+        width: 57%;
+        margin: auto;
+    }
+
+    .event-details-card {
+        max-width: 486px;
+        margin: auto;
+        margin-top: 20px;
+        height: 96px;
+        margin-bottom: 20px;
+        background: #E6F7F9;
+        margin-left: 70px;
+    }
+
+    .logo-title {
+        color: #E43193;
+        font-size: 24px;
+        font-weight: 700;
+        padding-right: 50px;
+    }
+
+    .card-title {
+        margin-bottom: 3px;
+        opacity: 0.5;
+        color: black;
+        position: relative;
+
+        left: -73px;
+    }
+
+    .badges {
+        position: relative;
+        bottom: 81px;
+        left: 61px;
+    }
+
+    .heart-icon {
+        position: relative;
+        bottom: 80px;
+        right: 70px;
+        font-size: 21px;
+    }
+
+    .cml-logo {
+        width: 46%;
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    .badge-info {
+        padding: 6px 17px 6px 17px;
+        margin-right: 149px;
+        margin-left: -136px;
+        margin-top: 86px;
+    }
+}

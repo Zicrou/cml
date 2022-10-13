@@ -1,0 +1,128 @@
+.rel-expectation-logo-title {
+  color: #e43193;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: -20px;
+}
+
+.rel-expectation-sub-heading-1 {
+  color: #080808;
+  font-size: 24px;
+  opacity: 0.5;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.rel-expectation-sub-heading-2 p {
+  font-size: 28px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.rel-expectation-header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rel-expectation-continue-btn button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+}
+
+.rel-expectation-continue-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rel-expectation-details-textarea {
+  outline-color: #dcf5f8;
+  outline-style: solid;
+  outline-width: 7px;
+  height: 102px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.rel-expectation-details-textarea::placeholder {
+  padding-left: 5px;
+  padding-top: 3px;
+}
+
+.rel-expectation-progress {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0.75rem;
+  background-color: #f6d0e2;
+  border-radius: 0.25rem;
+  border: 1px solid #e43193;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+.rel-expectation-progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e43193;
+  transition: width 0.6s ease;
+  border-radius: 10px;
+  width: 40%;
+}
+
+@media only screen and (max-width: 414px) and (min-width: 375px) {
+
+  .rel-expectation-cml-logo {
+    width: 57%;
+    margin: auto;
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+
+  .rel-expectation-cml-logo {
+    width: 46%;
+    margin: auto;
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .rel-expectation-cml-logo {
+    width: 50%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+  .rel-expectation-cml-logo {
+    width: 36%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+  .rel-expectation-cml-logo {
+    width: 26%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+}

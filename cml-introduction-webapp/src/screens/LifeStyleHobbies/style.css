@@ -1,0 +1,115 @@
+.hobbies-cml-logo {
+  margin-bottom: 19px;
+}
+
+.hobbies-sub-heading-1 {
+  color: #080808;
+  font-size: 24px;
+  opacity: 0.5;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.hobbies-sub-heading-2 p {
+  font-size: 28px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.hobbies-sub-heading-3 {
+  color: black;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: -15px;
+}
+
+.hobbies-header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hobbies-continue-btn button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.select-btn {
+  width: 100%;
+}
+
+.hobbies-select-button.active {
+  background-color: #70dae4;
+  color: black;
+  border: none;
+}
+
+.hobbies-select-button {
+  margin: 5px;
+  border-radius: 4px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #e4f6f8;
+}
+
+.hobbies-btn-group {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  width: 100%;
+}
+
+p.hobbies-select-button {
+  padding: 17px;
+  color: #5c7175;
+}
+
+.additional-hobbies {
+  margin: auto;
+  width: 99%;
+}
+
+.additional-hobbies input {
+  width: 100%;
+  margin-top: 5px;
+  height: 60px;
+  border: 7px solid #dcf5f8;
+  border-radius: 4px;
+  outline: none;
+}
+
+.hobbies-continue-btn {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.hobbies-progress {
+  display: flex;
+  height: 1rem;
+  background-color: #f6d0e2;
+  border: 1px solid #e43193;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+.hobbies-progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e43193;
+  transition: width 0.6s ease;
+  border-radius: 10px;
+  width: 16.66%;
+}

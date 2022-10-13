@@ -1,0 +1,298 @@
+span.event-details-badge {
+  padding: 6px 15px 6px 15px;
+}
+.cml-logo {
+  margin-bottom: 19px;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none !important;
+}
+
+.event-details-badge {
+  margin-right: 7px;
+  background-color: rgb(43, 187, 211);
+  color: white;
+}
+
+.event-details-badges {
+  position: absolute;
+  left: -37px;
+  top: 41px;
+}
+
+.event-details-card-title {
+  position: absolute;
+  top: 7px;
+  left: -38px;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.rounded-circle {
+  width: 80%;
+  position: absolute;
+  left: -35px;
+  top: 1px;
+  object-fit: fill;
+  height: 103px;
+}
+
+.rounded-circle {
+  border: 5px solid #2bbbd3;
+}
+
+.pink-border-img {
+  border: 5px solid #e43193;
+}
+
+.card.event-details-card {
+  background-color: rgba(255, 255, 255, 0.75);
+  max-width: 359px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 211px;
+  margin-bottom: 20px;
+  height: 108px;
+}
+
+.header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo-title {
+  color: #e43193;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sub-heading1 {
+  font-size: 36px;
+  color: #e43193;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.sub-heading2 {
+  color: #080808;
+  font-size: 24px;
+  opacity: 0.5;
+  font-weight: 700;
+}
+
+.sub-heading3 {
+  padding-bottom: 30px;
+  color: black;
+  opacity: 0.5;
+}
+
+.heart-icon1 {
+  color: red;
+  padding-top: 5px;
+}
+
+.heart-icon2 {
+  color: red;
+  padding-top: 5px;
+}
+
+.heart-icon3 {
+  color: red;
+  padding-top: 5px;
+}
+
+.heart-icon4 {
+  color: red;
+  padding-top: 5px;
+}
+
+.heart-icon5 {
+  color: red;
+  padding-top: 5px;
+}
+
+.heart-icon6 {
+  padding-top: 5px;
+  color: red;
+}
+
+.event-details-heart-icon {
+  position: absolute;
+  font-size: 27px;
+  top: 70px;
+  left: -35px;
+}
+
+@media only screen and (max-width: 767px) {
+  span.event-details-badge {
+    padding: 4px 8px 4px 8px;
+  }
+
+  .card.event-details-card {
+    margin-left: 22%;
+  }
+
+  .rounded-circle {
+    width: 34%;
+    position: absolute;
+    left: -55px;
+    object-fit: fill;
+    height: 75px;
+  }
+  .card.event-details-card {
+    max-width: 224px;
+    margin: auto;
+    margin-top: 20px;
+    height: 78px;
+    padding-left: 31px;
+    background: #e6f7f9;
+  }
+
+  .event-details-card-title {
+    position: absolute;
+    top: 3px;
+    left: 37px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+  .event-details-badges {
+    position: absolute;
+    left: 36px;
+    top: 29px;
+  }
+
+  .event-details-heart-icon {
+    position: absolute;
+    font-size: 18px;
+    left: 42px;
+    top: 51px;
+  }
+
+  .logo-title {
+    color: #e43193;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .sub-heading1 {
+    font-size: 25px;
+    color: #e43193;
+    font-weight: 700;
+  }
+
+  .sub-heading2 {
+    color: black;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .event-details-badge {
+    padding: 4px 8px 4px 8px;
+    margin-right: 1px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .rounded-circle {
+    width: 87%;
+    position: absolute;
+    height: 91px;
+    object-fit: fill;
+  }
+
+  .card.event-details-card {
+    max-width: 486px;
+    margin: auto;
+    margin-top: 20px;
+    height: 95px;
+    margin-bottom: 20px;
+    background: #e6f7f9;
+    margin-left: 68px;
+  }
+
+  .event-details-card-title {
+    position: absolute;
+    top: 3px;
+    left: -22px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .event-details-badges {
+    position: absolute;
+    left: -28px;
+    top: 36px;
+  }
+
+  .event-details-heart-icon {
+    position: absolute;
+    font-size: 27px;
+    top: 59px;
+    left: -22px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .rounded-circle {
+    width: 63%;
+    position: absolute;
+    left: -37px;
+    height: 91px;
+    object-fit: fill;
+  }
+  .event-details-card-title {
+    position: absolute;
+    top: 3px;
+    left: -57px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+  .card.event-details-card {
+    max-width: 486px;
+    margin: auto;
+    margin-top: 20px;
+    height: 96px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-left: 70px;
+  }
+
+  .logo-title {
+    color: #e43193;
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 50px;
+  }
+
+  .card-title {
+    margin-bottom: 3px;
+    opacity: 0.5;
+    color: black;
+    position: relative;
+
+    left: -73px;
+  }
+
+  .event-details-badges {
+    position: absolute;
+    left: -58px;
+    top: 36px;
+  }
+
+  .event-details-heart-icon {
+    position: absolute;
+    font-size: 27px;
+    top: 59px;
+    left: -52px;
+  }
+}

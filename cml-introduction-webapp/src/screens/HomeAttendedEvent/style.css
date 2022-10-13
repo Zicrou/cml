@@ -1,0 +1,170 @@
+.attended-event-cml-logo {
+  text-align: center;
+}
+.attended-cml-logo{
+  margin-bottom: 19px;
+}
+  
+.attended-event-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.attended-event-title b {
+  color: black;
+  opacity: 0.5;
+}
+
+.attended-event-content {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.attended-event-content p {
+  color: #000000;
+  opacity: 0.5;
+}
+
+.attended-event-btns {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.attended-view-event-btn {
+  background-color: rgba(43, 187, 211, 0.25);
+}
+
+.attended-view-profile-btn {
+  background-color: rgba(43, 187, 211, 0.25);
+}
+
+.attended-view-event-btn button {
+  border: none;
+  padding: 15px 60px 15px 60px;
+  background: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #5c7274;
+}
+
+.attended-view-profile-btn button {
+  border: none;
+  padding: 15px 53px 15px 59px;
+  background: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #5c7274;
+}
+
+.attended-event-code input {
+  width: 33%;
+  margin: auto;
+  outline-color: #dcf5f8;
+  outline-style: solid;
+  outline-width: 7px;
+}
+
+input.go-btn {
+  margin-top: 21px;
+  margin-bottom: 20px;
+  padding: 3px 15px 3px 15px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  background-color: #2bbbd3;
+}
+
+.attended-view-profile-btn button:focus {
+  outline: none;
+}
+
+.attended-view-event-btn button:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .attended-event-view-profile-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .attended-event-code input {
+    width: 67%;
+    margin: auto;
+    outline-color: #dcf5f8;
+    outline-style: solid;
+    outline-width: 7px;
+  }
+
+  .attended-view-event-btn button {
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: #5c7274;
+  }
+
+  .attended-view-profile-btn button {
+    border: none;
+    padding: 10px 16px 10px 16px;
+    background: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: #5c7274;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .attended-view-event-btn button {
+    border: none;
+    padding: 15px 35px 15px 35px;
+    background: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5c7274;
+  }
+
+  .attended-view-profile-btn button {
+    border: none;
+    padding: 15px 30px 15px 30px;
+    background: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5c7274;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .attended-view-event-btn button {
+    border: none;
+    padding: 15px 55px 15px 55px;
+    background: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5c7274;
+  }
+
+  .attended-view-profile-btn button {
+    border: none;
+    padding: 15px 55px 15px 55px;
+    background: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5c7274;
+  }
+
+  .attended-event-code input {
+    width: 33%;
+    margin: auto;
+    outline-color: #dcf5f8;
+    outline-style: solid;
+    outline-width: 7px;
+  }
+}

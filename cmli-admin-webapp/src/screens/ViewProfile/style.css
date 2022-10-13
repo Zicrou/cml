@@ -1,0 +1,819 @@
+.background {
+  background-image: linear-gradient(#eeeeee, #2bbbd3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.user-profile-loader{
+  text-align: center;
+}
+.user-profile-cml-logo {
+  text-align: center;
+  margin-top: 50px;
+}
+.user-profile-logo {
+  margin-bottom: 24px;
+}
+.user-profile-loader {
+  width: 25%;
+  margin: auto;
+  margin-top: 50px;
+}
+b#user-profile-logo-style {
+  color: #e43193;
+}
+.address-badge {
+  background-color: #2bbbd3;
+  width: 100%;
+  height: auto;
+  border-radius: 40px;
+  color: white;
+  font-size: 12px;
+  margin-right: 5px;
+  font-weight: 600;
+  padding: 4px 20px 0px 20px;
+}
+.phone-badge {
+  background-color: #2bbbd3;
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  height: 25px;
+  border-radius: 40px;
+  padding: 4px 20px 0px 20px;
+  font-weight: 600;
+}
+
+img.card-img-top {
+  width: 145px;
+  height: 145px;
+  margin: auto;
+  border-radius: 50%;
+  border: 10px solid rgb(228, 49, 147);
+  position: relative;
+  top: -71px;
+  object-fit: fill;
+}
+
+img.card-img-top-men {
+  width: 145px;
+  height: 145px;
+  margin: auto;
+  border-radius: 50%;
+  border: 10px solid #2bbbd3;
+  position: relative;
+  top: -71px;
+  object-fit: fill;
+}
+
+.user-title {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  font-size: 36px;
+  top: -81px;
+  font-weight: 700;
+  color: #e43193;
+}
+.attended-badges {
+  width: 7%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  top: -55px;
+  right: 19px;
+}
+.info-badges {
+  width: 19%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  top: -76px;
+  
+}
+
+.eye-icon {
+  width: 100%;
+  position: absolute;
+  text-align: right;
+  right: 1%;
+  top: 0%;
+}
+
+.location-badges {
+  width: 60%;
+  margin: auto;
+  position: relative;
+  top: -64px;
+  display: flex;
+}
+
+.badge-info {
+  padding: 6px 15px 6px 15px;
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+
+.user-lock-icon {
+  position: absolute;
+  left: 103%;
+  top: 11%;
+  font-size: 20px;
+}
+
+.phone {
+  width: 100%;
+  background-color: #2bbbd3;
+}
+
+.status {
+  width: auto;
+  background-color: #2bbbd3;
+}
+
+.age {
+  width: 100%;
+  margin-right: 10px;
+  background-color: #2bbbd3;
+}
+
+.address {
+  width: 100%;
+  margin-right: 10px;
+  background-color: #2bbbd3;
+}
+
+.custom-dropdown {
+  width: 23%;
+  margin: auto;
+  border: 2px solid #e43193;
+  border-radius: 4px;
+  position: relative;
+  top: -42px;
+}
+
+.menu-btn {
+  color: #e43193;
+  font-size: 20px;
+  background: none;
+  border: none;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.card-content {
+  width: 90%;
+  margin: auto;
+}
+
+.hobbies-question p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.hobbies-answer {
+  background-color: #b9edf4;
+  padding: 11px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hobbies-answer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.travel-question p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-top: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.travel-answer {
+  background-color: #b9edf4;
+  padding: 11px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.travel-answer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.decision-question p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-top: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.decision-answer {
+  background-color: #b9edf4;
+  padding: 11px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.decision-answer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.marriage-question p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-top: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.marriage-answer {
+  background-color: #b9edf4;
+  padding: 11px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.marriage-answer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+.fav-color-question p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-top: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fav-color-answer {
+  background-color: #b9edf4;
+  padding: 11px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.fav-color-answer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.decision-lock-icon {
+  position: absolute;
+  left: 92%;
+  font-size: 20px;
+}
+
+.minus-icon {
+  position: absolute;
+  left: 92%;
+}
+.thumbs-up-emoji {
+  font-size: 20px;
+  font-weight: 400;
+}
+.thumbs-down-emoji {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.dropdown-menu {
+  z-index: 1000;
+  float: left;
+  min-width: 9.3rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+span.user-profile-heart-icon {
+  font-size: 22px;
+  margin-left: 10px;
+  margin-top: -4px;
+}
+
+.user-profile-card {
+  margin-top: 19%;
+  margin-bottom: 10%;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+@media only screen and (max-width: 414px) and (min-width: 375px) {
+  .user-profile-loader {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .user-profile-card {
+    margin-top: 22%;
+  }
+
+  img.card-img-top {
+    width: 102px;
+    height: 102px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid rgb(228, 49, 147);
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+  img.card-img-top-men {
+    width: 102px;
+    height: 102px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid #2bbbd3;
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+  .user-title {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 36px;
+    top: -66px;
+    font-weight: 700;
+    color: #e43193;
+  }
+  .attended-badges {
+    width: 7%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -46px;
+    right: 38px;
+  }
+  .info-badges {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -55px;
+  }
+  .location-badges {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    left: -14px;
+    display: flex;
+}
+
+  .custom-dropdown {
+    width: 52%;
+    margin: auto;
+    border: 2px solid #e43193;
+    border-radius: 4px;
+    position: relative;
+    top: -29px;
+  }
+
+  .badge-info {
+    padding: 6px 15px 6px 15px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+  }
+
+  .status {
+    padding: 6px 20px 2px 20px;
+  }
+
+  .user-profile-card {
+    margin-top: 19%;
+    margin-bottom: 10%;
+  }
+
+  .user-lock-icon {
+    position: absolute;
+    left: 103%;
+    top: 1%;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .user-profile-loader {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  img.card-img-top {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid rgb(228, 49, 147);
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+  img.card-img-men {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid #2bbbd3;
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+  .user-title {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 36px;
+    top: -66px;
+    font-weight: 700;
+    color: #e43193;
+  }
+  .attended-badges {
+    width: 7%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -44px;
+    right: 38px;
+  }
+  .info-badges {
+    width: 40%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -55px;
+  }
+
+  .location-badges {
+    width: 91%;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    display: flex;
+  }
+
+  .custom-dropdown {
+    width: 47%;
+    margin: auto;
+    border: 2px solid #e43193;
+    border-radius: 4px;
+    position: relative;
+    top: -29px;
+  }
+
+  .badge-info {
+    padding: 6px 15px 6px 15px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+  }
+
+  .user-profile-card {
+    margin-top: 19%;
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .user-profile-loader {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  img.card-img-top-men {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid #2bbbd3;
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+
+  .user-title {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 36px;
+    top: -66px;
+    font-weight: 700;
+    color: #e43193;
+  }
+  .attended-badges {
+    width: 7%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -53px;
+    right: 38px;
+  }
+  .info-badges {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -63px;
+  }
+
+  .location-badges {
+    width: 106%;
+    margin: auto;
+    position: relative;
+    top: -58px;
+    left: -19px;
+    display: flex;
+}
+
+  .custom-dropdown {
+    width: 61%;
+    margin: auto;
+    border: 2px solid #e43193;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .card-content {
+    width: 90%;
+    margin: auto;
+    position: relative;
+  }
+
+  .badge-info {
+    padding: 6px 15px 6px 15px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+  }
+
+  .user-profile-card {
+    margin-top: 19%;
+    margin-bottom: 10%;
+  }
+
+  .user-lock-icon {
+    position: absolute;
+    top: 0%;
+    right: -15%;
+    font-size: 20px;
+  }
+
+  .phone {
+    width: 100%;
+    background-color: #2bbbd3;
+    padding: 5px 30px 5px 30px;
+  }
+
+  .status {
+    width: auto;
+    background-color: #2bbbd3;
+  }
+
+  .age {
+    width: 100%;
+    margin-right: 10px;
+    background-color: #2bbbd3;
+  }
+
+  .address {
+    width: 100%;
+    margin-right: 10px;
+    background-color: #2bbbd3;
+    padding: 5px 30px 5px 30px;
+  }
+
+  img.card-img-top {
+    width: 110;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid rgb(228, 49, 147);
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .card-content {
+    width: 90%;
+    margin: auto;
+    position: relative;
+  }
+
+  .user-profile-loader {
+    width: 37%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .user-profile-logo-title {
+    color: #e43193;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .user-profile-card {
+    margin-top: 19%;
+    margin-bottom: 10%;
+  }
+
+  img.card-img-top {
+    width: 110;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid rgb(228, 49, 147);
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+  img.card-img-top-men {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #2bbbd3;
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+
+  .eye-icon {
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    right: 1%;
+    top: 0%;
+  }
+
+  .user-title {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 36px;
+    top: -66px;
+    font-weight: 700;
+    color: #e43193;
+  }
+  .attended-badges {
+    width: 11%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -55px;
+    right: 19px;
+  }
+  .info-badges {
+    width: 40%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -62px;
+  }
+
+  .location-badges {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: -58px;
+    display: flex;
+  }
+
+  .badge-info {
+    padding: 6px 15px 6px 15px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+  }
+
+  .lock-icon {
+    position: absolute;
+    left: 103%;
+    top: 11%;
+    font-size: 20px;
+  }
+
+  .custom-dropdown {
+    width: 42%;
+    margin: auto;
+    border: 2px solid #e43193;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .menu-btn {
+    color: #e43193;
+    font-size: 20px;
+  }
+
+  .btn:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .card-content {
+    width: 90%;
+    margin: auto;
+  }
+
+  .hobbies-answer {
+    background-color: #b9edf4;
+    padding: 11px 5px 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .travel-answer {
+    background-color: #b9edf4;
+    padding: 11px 5px 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .decision-answer {
+    background-color: #b9edf4;
+    padding: 11px 5px 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .marriage-answer {
+    background-color: #b9edf4;
+    padding: 11px 5px 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .fav-color-answer {
+    background-color: #b9edf4;
+    padding: 11px 5px 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .lock-icon {
+    position: absolute;
+    left: 104%;
+    top: 11%;
+    font-size: 20px;
+  }
+
+  .user-lock-icon {
+    position: absolute;
+    top: 0%;
+    right: -15%;
+    font-size: 20px;
+  }
+
+  .phone {
+    width: 100%;
+    background-color: #2bbbd3;
+    padding: 5px 45px 5px 45px;
+  }
+
+  .status {
+    width: auto;
+    background-color: #2bbbd3;
+  }
+
+  .age {
+    width: 100%;
+    margin-right: 10px;
+    background-color: #2bbbd3;
+  }
+
+  .address {
+    width: 100%;
+    margin-right: 10px;
+    background-color: #2bbbd3;
+    padding: 5px 45px 5px 45px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .custom-dropdown {
+    width: 28%;
+    margin: auto;
+    border: 2px solid #e43193;
+    border-radius: 4px;
+    position: relative;
+    top: -42px;
+  }
+  .location-badges {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: -64px;
+    display: flex;
+}
+}

@@ -1,0 +1,441 @@
+
+.end-of-lifestle-cml-logo {
+  margin-bottom: 19px;
+}
+.lets-go-btn1{
+  text-align: center;
+  margin-top: 70px;
+}
+.end-screen-heading-1 {
+  color: #080808;
+  font-size: 24px;
+  opacity: 0.5;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.end-screen-sub-heading-1 p {
+  font-size: 28px;
+  opacity: 0.5;
+  font-weight: 400;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.lets-go-btn1 button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+  margin: 5px;
+}
+.back-button-style1{
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+  margin: 5px;
+}
+.lifestyle-endscreen-progress {
+  border: 1px solid #e43193;
+  border-radius: 10px;
+  margin-top: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+.lifestyle-endscreen-progress-bar {
+  background-color: #e43193;
+  border-radius: 10px;
+  width: 20%;
+}
+
+@media only screen and (max-width: 414px) and (min-width: 375px) {
+  
+  .lifestyle-endscreen-progress {
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .lifestyle-endscreen-progress-bar {
+    background-color: #e43193;
+    border-radius: 10px;
+    width: 20%;
+  }
+
+  .lifestyle-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 22%;
+    font-weight: 400;
+  }
+
+  .relationship-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 115px;
+    left: 33%;
+    font-weight: 400;
+  }
+
+  .finances-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 45%;
+    font-weight: 400;
+  }
+
+  .children-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 115px;
+    left: 55%;
+    font-weight: 400;
+  }
+
+  .personal-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 64%;
+    font-weight: 400;
+  }
+
+  .sub-heading7 p {
+    font-size: 18px;
+    opacity: 0.5;
+    font-weight: 400;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+ 
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+
+  .lifestyle-endscreen-progress {
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .lifestyle-endscreen-progress-bar {
+    background-color: #e43193;
+    border-radius: 10px;
+    width: 20%;
+  }
+
+  .lifestyle-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 22%;
+    font-weight: 400;
+  }
+
+  .relationship-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 115px;
+    left: 32%;
+    font-weight: 400;
+  }
+
+  .finances-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 45%;
+    font-weight: 400;
+  }
+
+  .children-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 115px;
+    left: 56%;
+    font-weight: 400;
+  }
+
+  .personal-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 66%;
+    font-weight: 400;
+  }
+
+  .sub-heading7 p {
+    font-size: 18px;
+    opacity: 0.5;
+    font-weight: 400;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .lifestyle-endscreen-progress {
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .lifestyle-endscreen-progress-bar {
+    background-color: #e43193;
+    border-radius: 10px;
+    width: 20%;
+  }
+
+  .lifestyle-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 22%;
+    font-weight: 400;
+  }
+
+  .relationship-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 115px;
+    left: 32%;
+    font-weight: 400;
+  }
+
+  .finances-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 45%;
+    font-weight: 400;
+  }
+
+  .children-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 115px;
+    left: 57%;
+    font-weight: 400;
+  }
+
+  .personal-text {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 68%;
+    font-weight: 400;
+  }
+
+  .sub-heading7 p {
+    font-size: 18px;
+    opacity: 0.5;
+    font-weight: 400;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+  .lifestyle-endscreen-progress {
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .lifestyle-endscreen-progress-bar {
+    background-color: #e43193;
+    border-radius: 10px;
+    width: 20%;
+  }
+
+  .lifestyle-text {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 20%;
+    font-weight: 400;
+  }
+
+  .relationship-text {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    bottom: 113px;
+    left: 31%;
+    font-weight: 400;
+  }
+
+  .finances-text {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 45%;
+    font-weight: 400;
+  }
+
+  .children-text {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    bottom: 113px;
+    left: 58%;
+    font-weight: 400;
+  }
+
+  .personal-text {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    opacity: 0.5;
+    bottom: 155px;
+    left: 70%;
+    font-weight: 400;
+  }
+
+  .sub-heading7 p {
+    font-size: 18px;
+    opacity: 0.5;
+    font-weight: 400;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+  .lifestyle-endscreen-progress {
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .lifestyle-endscreen-progress-bar {
+    background-color: #e43193;
+    border-radius: 10px;
+    width: 20%;
+  }
+
+  .lifestyle-text {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    bottom: 160px;
+    left: 21%;
+    font-weight: 400;
+  }
+
+  .relationship-text {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    bottom: 110px;
+    left: 33%;
+    font-weight: 400;
+  }
+
+  .finances-text {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    bottom: 160px;
+    left: 47%;
+    font-weight: 400;
+  }
+
+  .children-text {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    bottom: 110px;
+    left: 60%;
+    font-weight: 400;
+  }
+
+  .personal-text {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    opacity: 0.5;
+    bottom: 160px;
+    left: 72%;
+    font-weight: 400;
+  }
+
+  .sub-heading7 p {
+    font-size: 18px;
+    opacity: 0.5;
+    font-weight: 400;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+

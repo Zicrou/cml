@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CML</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+    .email-body{
+      background-image: linear-gradient(#eeeeee, #2bbbd3);
+      padding-bottom:50px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: sans-serif;
+    }
+
+      .invitation-update-email-cml-logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+      }
+
+      .invitation-update-email-title p {
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        color: #2bbbd3;
+      }
+
+      .invitation-update-email-content {
+        width: 50%;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.75);
+      }
+
+      .invitation-update-first-emoji {
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      .invitation-update-second-emoji {
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      p.invitation-update-content-title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        color: #2bbbd3;
+        padding-top: 32px;
+      }
+
+      .invitation-update-email-text {
+        width: 90%;
+        margin: auto;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      p.invitation-update-email-text {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 12px;
+        font-weight: 400;
+      }
+
+      .invitation-update-email-info {
+        background: white;
+        width: 100%;
+        margin: auto;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      .invitation-update-email-btns {
+        padding-bottom: 32px;
+        display: flex;
+        width: 38%;
+        margin: auto;
+      }
+      .invitation-update-reject-btn {
+        margin-right: 30px;
+      }
+
+      .invitation-update-reject-btn button {
+        padding: 15px 30px 15px 30px;
+        background-color: rgb(43, 187, 211);
+        border: 1px solid white;
+        color: white;
+      }
+      .invitation-update-accept-btn button {
+        padding: 15px 30px 15px 30px;
+        background-color: rgb(43, 187, 211);
+        border: 1px solid white;
+        color: white;
+      }
+
+      p.invitation-update-send-date-time {
+        padding-left: 20px;
+        padding-top: 11px;
+      }
+
+      p.invitation-update-send-location {
+        padding-left: 20px;
+        padding-bottom: 11px;
+      }
+      .footer-div{
+      padding-top: 20px;
+      padding-botto: 20px;
+      background-color: lightblue;
+      width:100%;
+      height:40px;
+    }
+    .footer-left{
+      width:40%;
+      float:left;
+    }
+    .footer-right{
+      width:60%;
+      float:left;
+    }
+
+    .cml-title{
+      font-size:16px;
+      text-align: center;
+      margin-top:5px;
+      font-weight: 600;
+    } 
+    .contact-heading {
+      font-size:16px;
+      text-align: center;
+      margin-top:5px;
+      font-weight: 600;
+    } 
+    .cml-contact-section{
+      font-size:12px;
+      text-align: center;
+      margin-top:5px;
+      font-weight: 500;
+    }
+    .i {  
+      color:  #e43193;
+      position: relative;
+        }
+         .i:before {
+          content: "ı";
+          position: absolute; 
+          color: #2bbbd3;
+        }
+
+
+      @media only screen and (max-width: 767px) and (min-width: 375px) {
+        .invitation-update-email-content {
+          width: 90%;
+          margin: auto;
+          background: rgba(255, 255, 255, 0.75);
+        }
+        .invitation-update-email-btns {
+          padding-bottom: 32px;
+          display: block;
+          width: 46%;
+          margin: auto;
+        }
+        .invitation-update-reject-btn {
+          margin-right: 0px;
+          text-align: center;
+        }
+        .invitation-update-accept-btn {
+          text-align: center;
+        }
+      }
+      @media only screen and (max-width: 992px) and (min-width: 768px) {
+        .invitation-update-email-content {
+          width: 90%;
+          margin: auto;
+          background: rgba(255, 255, 255, 0.75);
+        }
+        .invitation-update-email-btns {
+          padding-bottom: 32px;
+          display: flex;
+          width: 40%;
+          margin: auto;
+        }
+        .invitation-update-reject-btn {
+          margin-right: 30px;
+        }
+      }
+      @media only screen and (max-width: 1024px) and (min-width: 992px) {
+        .invitation-update-email-content {
+          width: 90%;
+          margin: auto;
+          background: rgba(255, 255, 255, 0.75);
+        }
+        .invitation-update-email-btns {
+          padding-bottom: 32px;
+          display: flex;
+          width: 30%;
+          margin: auto;
+        }
+        .invitation-update-reject-btn {
+          margin-right: 30px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+  <div class="email-body">
+    <div class="invitation-update-email-cml-logo">
+      <img src="./images/cml-logo.png" alt="" />
+    </div>
+    <div class="invitation-update-email-title">
+    <p>Center for Musl<span class="i">i</span>m L<span class="i">i</span>fe</p>
+    </div>
+    <div class="invitation-update-email-content">
+      <p class="invitation-update-content-title">
+        <span class="invitation-update-first-emoji">🎊</span>Today's the Day!<span class="invitation-update-second-emoji">🥳</span>
+      </p>
+      <div class="invitation-update-email-text">
+        <p>
+        We hope that you are looking forward to joining us for the CML Introductions Moderated event. Here is the location and time of the event we are expecting you at. Please let us know ASAP if you are unable to come for some reason.  It's sure to be a night of many meaningful Introductions, inshAllah!
+        </p>
+
+        <div class="invitation-update-email-info">
+          <p class="invitation-update-send-date-time"><b>When:</b><%= @event.date_time %></p>
+          <p class="invitation-update-send-location"><b>Where:</b><%= @event.address_location %></p>
+        </div>
+        <p>
+
+        
+        </p>
+
+
+        <p>
+        </p>
+      </div>
+  
+      <div class="footer-div">
+      <div class="footer-left">
+        <p class="cml-title">CML Introductions</p>
+      </div>
+      <div class="footer-right">
+        <p class="cml-contact-section"><span class="contact-heading">Contact Us:</span> info@centerformuslimlife.com</p>
+      </div>
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CML</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/3342089602.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row results-with-pictures-row">
+      <div class="col-md-2 col-sm-12 col-lg-2">
+        <div class="results-with-pictures-cml-logo">
+          <div class="results-with-pictures-logo">
+            <img src="./images/cml-logo.png" alt="" />
+          </div>
+          <div class="results-with-pictures-logo-title">
+            <b>Administration</b>
+          </div>
+        </div>
+        <div class="results-with-pictures-event-btn">
+          <button>Events</button>
+        </div>
+        <div class="results-with-pictures-people-btn">
+          <button>People</button>
+        </div>
+      </div>
+      <div class="col-md-10 col-sm-12 col-lg-10">
+        <div class="results-with-pictures-details-title">
+          <b>People Search</b>
+        </div>
+        <div class="results-with-pictures-details-content">
+          <form action="">
+            <div class="row">
+              <div class="col-md-12 results-with-pictures-text-input">
+                <input type="text" placeholder="Name" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="men">Men</label><br />
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="women">Women</label><br />
+                <input type="radio" id="other" name="gender" value="other" />
+                <label for="both">Both</label>
+              </div>
+              <div class="col-md-10">
+                <div class="row">
+                  <div class="col-md-4 col-lg-4">
+                    <div class="form-group results-with-pictures-text-input">
+                      <select class="custom-select custom-select-lg" placeholder="select  " required>
+                        <option selected>Marital Status</option>
+                        <option value="1">Married</option>
+                        <option value="2">Single</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-lg-3">
+                    <div class="col-md-12 results-with-pictures-number-input">
+                      <input type="number" placeholder="Min Age" />
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-lg-3">
+                    <div class="col-md-12 results-with-pictures-number-input">
+                      <input type="number" placeholder="Max Age" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group results-with-pictures-text-input">
+                      <select class="custom-select custom-select-lg" required>
+                        <option selected>Past Events Attended</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="row people-results-row">
+          <div class="col-md-6 col-sm-12 col-lg-6 people-results">
+            <b>6 Results</b>
+          </div>
+          <div class="col-md-6 col-sm-12 col-lg-6 people-catogories">
+            <b>2 men, 4 women </b>
+          </div>
+        </div>
+        <div class="row people-results-headings-row">
+          <div class="col-md-6 col-sm-12 col-lg-6 people-results-name-heading">
+            <b>Name</b>
+          </div>
+          <div class="col-md-6 col-sm-12 col-lg-6 people-results-info-headings">
+            <span class="people-results-age-heading"><b>Age</b></span>
+            <span class="people-results-status-heading"><b>Status</b></span>
+            <span class="people-results-events-heading"><b>Events</b></span>
+          </div>
+        </div>
+
+        <div class="row people-results-info women-results">
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-name-and-pic">
+              <div class="people-result-pic">
+                <img src="./images/zia-pic.jpg" alt="" />
+              </div>
+              <div class="people-reult-name">
+                <b>Ayesha Lawrence</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-badges-info">
+              <span class="badge badge-pill badge-info result-badge-age">29</span>
+              <span class="badge badge-pill badge-info result-badge-status">S</span>
+              <span class="badge badge-pill badge-info result-badge-events">3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row people-results-info women-results">
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-name-and-pic">
+              <div class="people-result-pic">
+                <img src="./images/zia-pic.jpg" alt="" />
+              </div>
+              <div class="people-reult-name">
+                <b>Lilah Ioselev</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-badges-info">
+              <span class="badge badge-pill badge-info result-badge-age">29</span>
+              <span class="badge badge-pill badge-info result-badge-status">S</span>
+              <span class="badge badge-pill badge-info result-badge-events">3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row people-results-info men-results">
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-name-and-pic">
+              <div class="people-result-men-pic">
+                <img src="./images/zia-pic.jpg" alt="" />
+              </div>
+              <div class="people-reult-name">
+                <b>Ren Xue</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-badges-info">
+              <span class="badge badge-pill badge-info result-badge-age">29</span>
+              <span class="badge badge-pill badge-info result-badge-status">S</span>
+              <span class="badge badge-pill badge-info result-badge-events">3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row people-results-info men-results">
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-name-and-pic">
+              <div class="people-result-men-pic">
+                <img src="./images/zia-pic.jpg" alt="" />
+              </div>
+              <div class="people-reult-name">
+                <b>Rey Mibourne</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-badges-info">
+              <span class="badge badge-pill badge-info result-badge-age">29</span>
+              <span class="badge badge-pill badge-info result-badge-status">S</span>
+              <span class="badge badge-pill badge-info result-badge-events">3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row people-results-info women-results">
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-name-and-pic">
+              <div class="people-result-pic">
+                <img src="./images/zia-pic.jpg" alt="" />
+              </div>
+              <div class="people-reult-name">
+                <b>Labeeba Al Amer</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-badges-info">
+              <span class="badge badge-pill badge-info result-badge-age">29</span>
+              <span class="badge badge-pill badge-info result-badge-status">S</span>
+              <span class="badge badge-pill badge-info result-badge-events">3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row people-results-info women-results">
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-name-and-pic">
+              <div class="people-result-pic">
+                <img src="./images/zia-pic.jpg" alt="" />
+              </div>
+              <div class="people-reult-name">
+                <b>Sofía Alcocer</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-6">
+            <div class="people-results-badges-info">
+              <span class="badge badge-pill badge-info result-badge-age">29</span>
+              <span class="badge badge-pill badge-info result-badge-status">S</span>
+              <span class="badge badge-pill badge-info result-badge-events">3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

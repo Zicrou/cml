@@ -1,0 +1,477 @@
+.relationship-end-logo-title {
+  color: #e43193;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: -20px;
+}
+
+.relationship-end-cml-logo {
+  width: 18%;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.relationship-end-heading-1 {
+  color: #080808;
+  font-size: 24px;
+  opacity: 0.5;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.relationship-end-sub-heading-1 p {
+  font-size: 28px;
+  opacity: 0.5;
+  font-weight: 400;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.relationship-end-header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.relationship-end-lets-go-btn button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+  position: absolute;
+  top: 513px;
+  left: 435px;
+}
+
+.relationship-end-progress {
+  border: 1px solid #e43193;
+  border-radius: 10px;
+  margin-top: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+.relationship-end-progress-bar {
+  background-color: #e43193;
+  border-radius: 10px;
+  width: 40%;
+}
+
+
+.relationship-progress-text1 {
+  position: absolute;
+  font-size: 18px;
+  color: black;
+  opacity: 0.5;
+  bottom: 31px;
+  left: 20%;
+  font-weight: 400;
+}
+
+.relationship-progress-text2 {
+  position: absolute;
+  font-size: 18px;
+  color: black;
+  opacity: 0.5;
+  top: 104%;
+  left: 31%;
+  font-weight: 400;
+}
+
+.relationship-progress-text3 {
+  position: absolute;
+  font-size: 18px;
+  color: black;
+  opacity: 0.5;
+  bottom: 31px;
+  left: 45%;
+  font-weight: 400;
+}
+
+.relationship-progress-text4 {
+  position: absolute;
+  font-size: 18px;
+  color: black;
+  opacity: 0.5;
+  top: 104%;
+  left: 58%;
+  font-weight: 400;
+}
+
+.relationship-progress-text5 {
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  opacity: 0.5;
+  bottom: 35px;
+  left: 70%;
+  font-weight: 400;
+}
+
+
+@media only screen and (max-width: 414px) and (min-width: 375px) {
+  .relationship-end-cml-logo {
+    width: 50%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .relationship-end-progress {
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .relationship-end-progress-bar {
+    background-color: #e43193;
+    border-radius: 10px;
+    width: 40%;
+  }
+
+  .relationship-progress-text1 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 27px;
+    left: 22%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text2 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    top: 102%;
+    left: 33%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text3 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 27px;
+    left: 45%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text4 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    top: 102%;
+    left: 55%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text5 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 27px;
+    left: 64%;
+    font-weight: 400;
+  }
+
+  .relationship-end-lets-go-btn button {
+    border: 1px solid white;
+    background-color: #2bbbd3;
+    padding: 6px 30px 6px 30px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    top: 108%;
+    left: 34%;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .relationship-end-cml-logo {
+    width: 46%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .relationship-end-progress {
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .relationship-end-progress-bar {
+    background-color: #e43193;
+    border-radius: 10px;
+    width: 40%;
+  }
+
+  .relationship-progress-text1 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 27px;
+    left: 22%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text2 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    top: 102%;
+    left: 32%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text3 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 27px;
+    left: 45%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text4 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    top: 102%;
+    left: 56%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text5 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 27px;
+    left: 66%;
+    font-weight: 400;
+  }
+
+  .relationship-end-lets-go-btn button {
+    border: 1px solid white;
+    background-color: #2bbbd3;
+    padding: 6px 30px 6px 30px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    top: 108%;
+    left: 35%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .relationship-end-cml-logo {
+    width: 36%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .relationship-end-progress {
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .relationship-end-progress-bar {
+    background-color: #e43193;
+    border-radius: 10px;
+    width: 40%;
+  }
+
+  .relationship-progress-text1 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 27px;
+    left: 22%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text2 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    top: 102%;
+    left: 32%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text3 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 27px;
+    left: 45%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text4 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    top: 102%;
+    left: 57%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text5 {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    opacity: 0.5;
+    bottom: 27px;
+    left: 68%;
+    font-weight: 400;
+  }
+
+  .relationship-end-lets-go-btn button {
+    border: 1px solid white;
+    background-color: #2bbbd3;
+    padding: 6px 30px 6px 30px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    top: 108%;
+    left: 38%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .relationship-end-cml-logo {
+    width: 28%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .relationship-end-progress {
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .relationship-end-progress-bar {
+    background-color: #e43193;
+    border-radius: 10px;
+    width: 40%;
+  }
+
+  .relationship-progress-text1 {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    bottom: 31px;
+    left: 20%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text2 {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    top: 104%;
+    left: 31%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text3 {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    bottom: 31px;
+    left: 45%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text4 {
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    top: 104%;
+    left: 58%;
+    font-weight: 400;
+  }
+
+  .relationship-progress-text5 {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    opacity: 0.5;
+    bottom: 35px;
+    left: 70%;
+    font-weight: 400;
+  }
+
+  .relationship-end-lets-go-btn button {
+    border: 1px solid white;
+    background-color: #2bbbd3;
+    padding: 6px 30px 6px 30px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    top: 115%;
+    left: 44%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .relationship-end-cml-logo {
+    width: 18%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .relationship-end-progress {
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .relationship-end-progress-bar {
+    background-color: #e43193;
+    border-radius: 10px;
+    width: 40%;
+  }
+
+  .relationship-end-lets-go-btn button {
+    border: 1px solid white;
+    background-color: #2bbbd3;
+    padding: 6px 30px 6px 30px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    top: 115%;
+    left: 44%;
+  }
+}

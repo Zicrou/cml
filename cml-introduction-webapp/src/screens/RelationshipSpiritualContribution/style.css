@@ -1,0 +1,84 @@
+
+ .contributions-cml-logo {
+ margin-bottom: 19px;
+}
+.contributions-sub-heading-1 {
+  color: #080808;
+  font-size: 24px;
+  opacity: 0.5;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.contributions-sub-heading-2 p {
+  font-size: 28px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.contributions-header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contributions-btns button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+}
+
+.contributions-btns {
+  text-align: center;
+  margin-top: 20px;
+}
+.contributions-continue-btn{
+  margin-left: 10px;
+}
+
+.contributions-details-textarea {
+  border: 7px solid #dcf5f8;
+  border-radius: 4px;
+   width: 100%;
+   margin-top: 10px;
+ }
+ 
+ .contributions-textarea {
+   width: 100%;
+   margin: auto;
+ }
+
+.contributions-details-textarea::placeholder {
+  padding-left: 5px;
+  padding-top: 3px;
+}
+
+.contributions-progress {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0.75rem;
+  background-color: #f6d0e2;
+  border-radius: 0.25rem;
+  border: 1px solid #e43193;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+.contributions-progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e43193;
+  transition: width 0.6s ease;
+  border-radius: 10px;
+  width: 60%;
+}
+

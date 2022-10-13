@@ -1,0 +1,333 @@
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+.past-event-logo-title {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.past-event-events-btn {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.past-event-people-btn {
+  text-align: center;
+}
+
+.past-event-events-btn button {
+  padding: 7px 40px 7px 40px;
+  background-color: rgb(228, 49, 147);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.past-event-people-btn button {
+  padding: 7px 40px 7px 40px;
+  background-color: rgb(43, 187, 211);
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.event-details-past-event-title {
+  text-align: center;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 8%;
+}
+
+.event-details-past-event-map img {
+  width: 100%;
+  height: 288px;
+}
+
+.event-details-past-event-content {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.event-details-past-event-content {
+  background-color: rgba(43, 187, 211, 0.25);
+  margin-right: 30px;
+  margin-top: 4%;
+  padding: 2%;
+}
+
+.people-match-btns {
+  display: flex;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.past-event-details-people-btn button {
+  padding: 5px 35px 5px 35px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 4px 0px 0px 4px;
+}
+
+.past-event-match-btn button {
+  padding: 5px 35px 5px 35px;
+  border: none;
+  background-color: rgb(43, 187, 211);
+  border-radius: 0px 4px 4px 0px;
+  border-left: 1px solid white;
+}
+
+.event-details-past-event-location {
+  font-size: 21px;
+}
+
+.past-events-women-select-button {
+  margin: 5px;
+  border-radius: 4px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #ffdcef;
+  border: 3px solid white;
+}
+
+.past-events-men-select-button {
+  margin: 5px;
+  border-radius: 4px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(43, 187, 211, 0.25);
+  border: 3px solid white;
+}
+
+.past-event-tick {
+  padding: 6px 20px 6px 20px;
+  margin-right: 13px;
+  color: black;
+}
+
+.past-event-age {
+  padding: 6px 20px 6px 20px;
+  margin-right: 13px;
+}
+
+.past-event-status {
+  padding: 6px 20px 6px 20px;
+  margin-right: 13px;
+}
+
+.past-event-events {
+  padding: 6px 20px 6px 20px;
+  margin-right: 13px;
+}
+
+.past-event-personal-info {
+  width: 65%;
+  margin-left: 42%;
+}
+
+.past-event-heart-icon {
+  font-size: 21px;
+  margin-right: 13px;
+}
+
+.past-events-personal-info-headings {
+  text-align: right;
+}
+
+span.info-headings {
+  margin-left: -4px;
+  margin-right: 26px;
+}
+
+.remove-space {
+  margin-top: -7px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 736px) {
+  .past-event-tick {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+    color: black;
+  }
+
+  .past-event-age {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .past-event-status {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .past-event-events {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .past-event-personal-info {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .past-event-heart-icon {
+    font-size: 21px;
+    margin-right: 1px;
+  }
+
+  span.info-headings {
+    margin-left: 10px;
+    margin-right: -1px;
+  }
+
+  .past-event-cml-logo {
+    text-align: center;
+  }
+
+  .event-details-past-event-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+
+  .past-events-personal-info-headings {
+    text-align: right;
+    margin-right: 61px;
+  }
+}
+
+@media only screen and (min-width: 737px) and (max-width: 992px) {
+  .past-event-events-btn button {
+    padding: 5px 32px 5px 32px;
+    background-color: rgb(228, 49, 147);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+
+  .past-event-people-btn button {
+    padding: 5px 32px 5px 32px;
+    background-color: rgb(43, 187, 211);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+
+  .past-event-tick {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+    color: black;
+  }
+
+  .past-event-age {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .past-event-status {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .past-event-events {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .past-event-personal-info {
+    width: 82%;
+    margin-left: 28%;
+  }
+
+  .past-event-heart-icon {
+    font-size: 21px;
+    margin-right: 5px;
+  }
+
+  span.info-headings {
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+
+  .event-listing-cml-logo {
+    text-align: center;
+  }
+
+  .event-details-past-event-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .past-event-tick {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+    color: black;
+  }
+
+  .past-event-age {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .past-event-status {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .past-event-events {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+  }
+
+  .past-event-personal-info {
+    width: 82%;
+    margin-left: 28%;
+  }
+
+  .past-event-heart-icon {
+    font-size: 21px;
+    margin-right: 5px;
+  }
+
+  span.info-headings {
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+
+  .event-listing-cml-logo {
+    text-align: center;
+  }
+
+  .event-details-past-event-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  span.info-headings {
+    margin-left: 0px;
+    margin-right: 21px;
+  }
+}

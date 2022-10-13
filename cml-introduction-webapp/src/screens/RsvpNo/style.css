@@ -1,0 +1,42 @@
+.rsvp-no-cml-logo {
+  text-align: center;
+}
+
+.rsvp-profile-btn {
+  text-align: center;
+}
+.rsvp-no-logo {
+  margin-bottom: 19px;
+}
+.rsvp-profile-btn button {
+  border: 1px solid white;
+  margin-top: 2%;
+  background-color: #2bbbd3;
+  padding: 5px 15px 5px 15px;
+  color: white;
+  border-radius: 4px;
+}
+
+.rsvp-no-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.rsvp-no-title b {
+  color: black;
+  opacity: 0.5;
+}
+
+.rsvp-no-content {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.rsvp-no-content p {
+  color: #000000;
+  opacity: 0.5;
+}

@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cmlintro-dev-121023-authRole",
+      "UnauthRoleArn": "arn:aws:iam::516234992196:role/amplify-cmlintro-dev-121023-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::516234992196:role/amplify-cmlintro-dev-121023-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-cmlintro-dev-121023-deployment",
+      "UnauthRoleName": "amplify-cmlintro-dev-121023-unauthRole",
+      "StackName": "amplify-cmlintro-dev-121023",
+      "StackId": "arn:aws:cloudformation:eu-central-1:516234992196:stack/amplify-cmlintro-dev-121023/e621f8e0-65ee-11eb-99bc-02f97c6052ca",
+      "AmplifyAppId": "dsgsv61lcqcy4"
+    },
+    "categories": {
+      "auth": {
+        "cmlintrod2d043d4": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.wife-cml-logo {
+  margin-bottom: 19px;
+}
+.wife-sub-heading-1 {
+  color: #080808;
+  font-size: 24px;
+  opacity: 0.5;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.wife-sub-heading-2 p {
+  font-size: 28px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.wife-header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wife-btns button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+}
+
+.wife-custom-radio-btn.active {
+  background-color: #70dae4;
+  color: black;
+  border: none;
+}
+
+.wife-custom-radio-btn {
+  border-radius: 4px;
+  width: 100%;
+  padding-top: 15px;
+  text-align: left;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #e4f6f8;
+  color: #999999;
+}
+
+
+.wife-details-textarea {
+  border: 7px solid #dcf5f8;
+  border-radius: 4px;
+   width: 100%;
+   margin-top: 10px;
+ }
+ 
+ .wife-textarea {
+   width: 100%;
+   margin: auto;
+ }
+
+ .details-textarea {
+  width: 100%;
+  margin: auto;
+}
+
+.wife-details-textarea::placeholder {
+  padding-left: 5px;
+  padding-top: 3px;
+}
+
+.wife-btns {
+  text-align: center;
+  margin-top: 20px;
+}
+.wife-continue-btn {
+ margin-left: 10px;
+}
+
+.wife-radiobtns {
+  display: block;
+}
+
+.wife-custom-radio-btn input[type='radio'] {
+  padding: 0;
+  opacity: 0;
+  margin-left: -13px;
+}
+

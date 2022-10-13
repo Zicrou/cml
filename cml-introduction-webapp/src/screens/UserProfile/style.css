@@ -1,0 +1,820 @@
+.user-profile-loader {
+  text-align: center;
+}
+.collapse.show {
+  visibility: visible;
+}
+.user-profile-cml-logo {
+  width: 25%;
+  margin: auto;
+}
+.user-profile-logo {
+  margin-bottom: 24px;
+}
+.user-profile-loader {
+  width: 25%;
+  margin: auto;
+}
+b#user-profile-logo-style {
+  margin-left: -30px;
+}
+.question-option-style{
+  color: rgba(0, 0, 0, 0.5);
+}
+img.card-img-top {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  border-radius: 50%;
+  border: 10px solid rgb(228, 49, 147);
+  position: relative;
+  top: -71px;
+  object-fit: fill;
+}
+
+img.card-img-top-men {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  border-radius: 50%;
+  border: 10px solid #2bbbd3;
+  position: relative;
+  top: -71px;
+  object-fit: fill;
+}
+
+.user-title {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  font-size: 36px;
+  top: -81px;
+  font-weight: 700;
+  color: #e43193;
+}
+
+.info-badges {
+  width: 19%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  top: -65px;
+}
+
+.eye-icon {
+  width: 100%;
+  position: absolute;
+  text-align: right;
+  right: 1%;
+  top: 0%;
+}
+
+.location-badges {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  top: -64px;
+  display: flex;
+}
+
+.badge-info {
+  padding: 6px 15px 6px 15px;
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+.address-badge {
+  background-color: #2bbbd3;
+  width: 100%;
+  height: auto;
+  border-radius: 40px;
+  color: white;
+  font-size: 12px;
+  margin-right: 20px;
+  font-weight: 600;
+  padding: 4px 20px 0px 20px;
+}
+.phone-badge {
+  background-color: #2bbbd3;
+  width: 73%;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  height: 25px;
+  border-radius: 40px;
+  padding: 4px 20px 0px 20px;
+  font-weight: 600;
+}
+.phone {
+ 
+  background-color: #2bbbd3;
+}
+
+.status {
+  width: 100%;
+  background-color: #2bbbd3;
+}
+
+.age {
+  width: 100%;
+  margin-right: 10px;
+  background-color: #2bbbd3;
+}
+
+.address {
+  width: 100%;
+  margin-right: 10px;
+  background-color: #2bbbd3;
+}
+
+.custom-dropdown {
+  width: 23%;
+  margin: auto;
+  border: 2px solid #e43193;
+  border-radius: 4px;
+  position: relative;
+  top: -42px;
+}
+
+.menu-btn {
+  color: #e43193;
+  font-size: 20px;
+  background: none;
+  border: none;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.menu-btn :focus {
+  outline: 0;
+  box-shadow: none;
+  color: #e43193;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+button#dropdownMenuCustomButton:hover {
+  background: none;
+  color: #e43193;
+  outline: 0;
+  box-shadow: none;
+}
+button#dropdownMenuCustomButton:focus {
+  background: none;
+  color: #e43193;
+  outline: 0;
+  box-shadow: none;
+}
+button#dropdownMenuCustomButton:active {
+  background: none;
+  color: #e43193;
+  outline: 0;
+  box-shadow: none;
+}
+.card-content {
+  width: 90%;
+  margin: auto;
+}
+
+.hobbies-question p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.hobbies-answer {
+  background-color: #b9edf4;
+  padding: 11px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hobbies-answer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.travel-question p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.travel-answer {
+  background-color: #b9edf4;
+  padding: 11px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.travel-answer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.decision-question p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.decision-answer {
+  background-color: #b9edf4;
+  padding: 11px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.decision-answer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.marriage-question p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.marriage-answer {
+  background-color: #b9edf4;
+  padding: 11px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.marriage-answer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+.fav-color-question p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fav-color-answer {
+  background-color: #b9edf4;
+  padding: 11px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.fav-color-answer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.decision-lock-icon {
+  font-size: 20px;
+  margin-top:30px;
+}
+
+.thumbs-up-emoji {
+  font-size: 20px;
+  font-weight: 400;
+}
+.thumbs-down-emoji {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.dropdown-menu {
+  z-index: 1000;
+  float: left;
+  min-width: 9.3rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+span.user-profile-heart-icon {
+  font-size: 22px;
+  margin-left: 10px;
+  margin-top: -4px;
+}
+.user-lock-icon {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.user-profile-card {
+  margin-top: 19%;
+  margin-bottom: 10%;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.editIconOnProfile{
+  color: black;
+  font-size: 18px;
+  margin-left: 20px;
+}
+@media only screen and (max-width: 414px) and (min-width: 375px) {
+  .user-profile-cml-logo {
+    width: 50%;
+    margin: auto;
+  }
+  .address-badge {
+    margin-right: 2px;
+  }
+  .decision-lock-icon {
+    font-size: 20px;
+    margin-top:0px;
+  }
+  .decision-lock-icon-styling {
+    text-align: right;
+}
+
+  .user-profile-loader {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .user-profile-card {
+    margin-top: 22%;
+  }
+
+  img.card-img-top {
+    width: 108px;
+    height: 102px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid rgb(228, 49, 147);
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+  img.card-img-top-men {
+    width: 108px;
+    height: 102px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid #2bbbd3;
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+  .user-title {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 36px;
+    top: -66px;
+    font-weight: 700;
+    color: #e43193;
+  }
+
+  .info-badges {
+    width: 32%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -55px;
+  }
+
+  .location-badges {
+    width: 106%;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    display: flex;
+  }
+
+  .custom-dropdown {
+    width: 49%;
+    margin: auto;
+    border: 2px solid #e43193;
+    border-radius: 4px;
+    position: relative;
+    top: -42px;
+  }
+
+  .badge-info {
+    padding: 6px 15px 6px 15px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+  }
+
+  .status {
+    padding: 6px 20px 2px 20px;
+  }
+
+
+  .user-profile-card {
+    margin-top: 19%;
+    margin-bottom: 10%;
+  }
+
+  
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .user-profile-cml-logo {
+    width: 50%;
+    margin: auto;
+  }
+  .decision-lock-icon {
+    font-size: 20px;
+    margin-top:30px;
+  }
+  .decision-lock-icon-styling {
+    text-align: right;
+}
+  .user-profile-loader {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  img.card-img-top {
+    width: 115px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid rgb(228, 49, 147);
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+  img.card-img-men {
+    width: 115px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid #2bbbd3;
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+  .user-title {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 36px;
+    top: -66px;
+    font-weight: 700;
+    color: #e43193;
+  }
+
+  .info-badges {
+    width: 25%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -55px;
+  }
+
+  .location-badges {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    display: flex;
+  }
+
+  .custom-dropdown {
+    width: 44%;
+    margin: auto;
+    border: 2px solid #e43193;
+    border-radius: 4px;
+    position: relative;
+    top: -42px;
+  }
+
+  .badge-info {
+    padding: 6px 15px 6px 15px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+  }
+
+
+  .user-profile-card {
+    margin-top: 19%;
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .user-profile-cml-logo {
+    width: 50%;
+    margin: auto;
+  }
+  .user-lock-icon {
+    font-size: 20px;
+    margin-left: 3px;
+  }
+
+  .user-profile-loader {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  img.card-img-top {
+    width: 115px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid rgb(228, 49, 147);
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+
+  img.card-img-top-men {
+    width: 115px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid #2bbbd3;
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+
+  .user-title {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 36px;
+    top: -66px;
+    font-weight: 700;
+    color: #e43193;
+  }
+
+  .info-badges {
+    width: 34%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -60px;
+  }
+
+  .location-badges {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: -58px;
+    display: flex;
+  }
+  .address-badge {
+    margin-right: 8px;
+   
+}
+
+  .custom-dropdown {
+    width: 48%;
+    margin: auto;
+    border: 2px solid #e43193;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .card-content {
+    width: 90%;
+    margin: auto;
+    position: relative;
+  }
+
+  .badge-info {
+    padding: 6px 15px 6px 15px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+  }
+
+
+  .user-profile-card {
+    margin-top: 19%;
+    margin-bottom: 10%;
+  }
+
+  .phone {
+    width: 100%;
+    background-color: #2bbbd3;
+    padding: 5px 30px 5px 30px;
+  }
+
+  .status {
+    width: auto;
+    background-color: #2bbbd3;
+  }
+
+  .age {
+    width: 100%;
+    margin-right: 10px;
+    background-color: #2bbbd3;
+  }
+
+  .address {
+    width: 100%;
+    margin-right: 10px;
+    background-color: #2bbbd3;
+    padding: 5px 30px 5px 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .user-profile-cml-logo {
+    width: 37%;
+    margin: auto;
+  }
+
+  .card-content {
+    width: 90%;
+    margin: auto;
+    position: relative;
+  }
+
+  .user-profile-loader {
+    width: 37%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .user-profile-logo-title {
+    color: #e43193;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .user-profile-card {
+    margin-top: 19%;
+    margin-bottom: 10%;
+  }
+
+  img.card-img-top {
+    width: 115px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid rgb(228, 49, 147);
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+  img.card-img-top-men {
+    width: 115px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #2bbbd3;
+    position: relative;
+    top: -56px;
+    object-fit: fill;
+  }
+
+  .eye-icon {
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    right: 1%;
+    top: 0%;
+  }
+
+  .user-title {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 36px;
+    top: -66px;
+    font-weight: 700;
+    color: #e43193;
+  }
+
+  .info-badges {
+    width: 21%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    top: -59px;
+  }
+
+  .location-badges {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    top: -58px;
+    display: flex;
+  }
+
+  .badge-info {
+    padding: 6px 15px 6px 15px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+  }
+
+  .lock-icon {
+    position: absolute;
+    left: 103%;
+    top: 11%;
+    font-size: 20px;
+  }
+
+  .custom-dropdown {
+    width: 34%;
+    margin: auto;
+    border: 2px solid #e43193;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .menu-btn {
+    color: #e43193;
+    font-size: 20px;
+  }
+
+  .btn:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .card-content {
+    width: 90%;
+    margin: auto;
+  }
+
+  .hobbies-answer {
+    background-color: #b9edf4;
+    padding: 11px 5px 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .travel-answer {
+    background-color: #b9edf4;
+    padding: 11px 5px 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .decision-answer {
+    background-color: #b9edf4;
+    padding: 11px 5px 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .marriage-answer {
+    background-color: #b9edf4;
+    padding: 11px 5px 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .fav-color-answer {
+    background-color: #b9edf4;
+    padding: 11px 5px 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+
+  .lock-icon {
+    position: absolute;
+    left: 104%;
+    top: 11%;
+    font-size: 20px;
+  }
+
+  .phone {
+    width: 100%;
+    background-color: #2bbbd3;
+    padding: 5px 45px 5px 45px;
+  }
+
+  .status {
+    width: auto;
+    background-color: #2bbbd3;
+  }
+
+  .age {
+    width: 100%;
+    margin-right: 10px;
+    background-color: #2bbbd3;
+  }
+
+  .address {
+    width: 100%;
+    margin-right: 10px;
+    background-color: #2bbbd3;
+    padding: 5px 45px 5px 45px;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .custom-dropdown {
+    width: 22%;
+    margin: auto;
+    border: 2px solid #e43193;
+    border-radius: 4px;
+    position: relative;
+    top: -42px;
+  }
+
+}
+

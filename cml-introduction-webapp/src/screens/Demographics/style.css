@@ -1,0 +1,595 @@
+.error {
+  color: red;
+}
+.image-upload img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+.cml-logo {
+  margin-bottom: 19px;
+}
+.select-input:focus {
+  color: #495057;
+  background-color: #fff;
+  border: 7px solid rgba(255, 255, 255, 0.75);
+  box-shadow: none;
+}
+.custom-select:focus {
+  color: #495057;
+  background-color: #fff;
+  border: 7px solid rgba(255, 255, 255, 0.75);
+  height: 60px;
+  box-shadow: none;
+}
+
+.submit-btn {
+  border: 1px solid wheat;
+  color: white;
+  padding: 5px 24px 5px 24px;
+  border-radius: 5px;
+  background: none;
+}
+
+.form-section {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.select-input {
+  width: 100%;
+  margin-bottom: -5px;
+  font-size: 16px;
+  height: 60px;
+  border: 7px solid #84dfea;
+}
+.custom-select {
+  width: 100%;
+  margin-bottom: -5px;
+  font-size: 16px;
+  height: 60px;
+  border: 7px solid #84dfea;
+}
+
+.name-input {
+  margin-bottom: -5px;
+}
+
+.calender-input {
+  margin-bottom: -5px;
+}
+
+.tel-input {
+  margin-top: -27px;
+}
+.sub-heading {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.sub-heading b {
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.logo-text {
+  text-align: center;
+}
+
+.logo-text b {
+  color: #e43193;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.image-upload {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.demographics-lock-icon {
+  position: relative;
+  left: 766px;
+  bottom: 35px;
+  font-size: 24px;
+}
+
+.uploadcare--widget__button_type_open {
+  background: #acb5c100;
+  color: #fff;
+  border: none;
+}
+
+.uploadcare--widget__button {
+  border: none;
+  padding: 0.4em 1em;
+  width: auto;
+  position: absolute;
+  margin: 18% 0 0 -2%;
+
+  color: #0c0c0c;
+  opacity: 0.5;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.uploadcare--widget__button_type_open:hover {
+  position: absolute;
+  left: 34%;
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.uploadcare--widget__button:hover {
+  background: #ffffff00;
+  color: #0c0c0c;
+  border: none;
+  box-shadow: none;
+}
+
+.uploadcare--widget__button_type_open:focus,
+.uploadcare--widget__button_type_open:hover {
+  background: #ffffff00;
+}
+
+.uploadcare--widget__button:focus {
+  outline-color: #ffffff00;
+  outline-offset: 1px;
+}
+
+.uploadcare--dialog__powered-by {
+  display: none;
+}
+
+.uploadcare--widget__file-name {
+  display: none;
+}
+
+.uploadcare--widget__file-size {
+  display: none;
+}
+
+.uploadcare--widget__button:focus {
+  outline-color: #ffffff00;
+  outline-offset: 1px;
+  display: none;
+}
+
+.uploadcare--widget__button_type_open:active {
+  background: #ffffff00;
+}
+
+.uploadcare--widget__button_type_open {
+  left: 270px;
+}
+button.uploadcare--widget__button_type_remove {
+  position: absolute;
+  top: 32%;
+  left: 43%;
+}
+button.uploadcare--widget__button_type_remove:hover {
+  position: absolute;
+  top: 32%;
+  left: 43%;
+  font-size: 24px;
+  font-weight: 700;
+}
+button.uploadcare--widget__button_type_cancel {
+  display: none;
+}
+@media only screen and (min-width: 375px) and (max-width: 414px) {
+  .select-input {
+    width: 75%;
+    margin-bottom: -5px;
+    border: 7px solid #84dfea;
+    font-size: 16px;
+    margin-left: 47px;
+  }
+  .custom-select {
+    width: 75%;
+    margin-bottom: -7px;
+    font-size: 16px;
+    height: 60px;
+    border: 7px solid #84dfea;
+  }
+
+  .name-input {
+    margin-bottom: -7px;
+  }
+
+  .calender-input {
+    margin-bottom: -7px;
+  }
+  .demographics-lock-icon {
+    position: relative;
+    left: 94%;
+    bottom: 34px;
+  }
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+  }
+
+  .image-upload img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 27%;
+    top: 21%;
+    font-size: 20px;
+  }
+
+  .tel-input {
+    margin-top: -28px;
+  }
+  button.uploadcare--widget__button_type_remove {
+    position: absolute;
+    top: 32%;
+    left: 34%;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .select-input {
+    width: 75%;
+    margin-bottom: -5px;
+    border: 7px solid #84dfea;
+    font-size: 16px;
+    margin-left: 47px;
+  }
+  .custom-select {
+    width: 75%;
+    margin-bottom: -7px;
+    font-size: 16px;
+    height: 60px;
+    border: 7px solid #84dfea;
+  }
+
+  .name-input {
+    margin-bottom: -7px;
+  }
+
+  .calender-input {
+    margin-bottom: -7px;
+  }
+
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 84%;
+  }
+  .image-upload img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .demographics-lock-icon {
+    position: relative;
+    top: 11%;
+    font-size: 20px;
+  }
+
+  .uploadcare--widget__button {
+    border: none;
+    padding: 0.4em 1em;
+    width: auto;
+    position: absolute;
+    top: 392px;
+    right: 60px;
+    color: #0c0c0c;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .tel-input {
+    margin-top: -26px;
+  }
+
+  .uploadcare--dialog__powered-by {
+    display: none;
+  }
+
+  .uploadcare--widget__file-name {
+    display: none;
+  }
+
+  .uploadcare--widget__file-size {
+    display: none;
+  }
+
+  .uploadcare--widget__button_type_open:active {
+    background: #ffffff00;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 30%;
+    top: 21%;
+    font-size: 20px;
+  }
+  button.uploadcare--widget__button_type_remove {
+    position: absolute;
+    top: 32%;
+    left: 36%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .uploadcare--widget__button {
+    border: none;
+    padding: 0.4em 1em;
+    width: auto;
+    position: absolute;
+    top: 392px;
+    right: 254px;
+    color: #0c0c0c;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  button.uploadcare--widget__button_type_remove {
+    position: absolute;
+    top: 32%;
+    left: 35%;
+  }
+  .select-input {
+    width: 100%;
+    margin: auto;
+    border: 7px solid #84dfea;
+    font-size: 16px;
+  }
+  .custom-select {
+    width: 100%;
+    margin-bottom: -7px;
+    font-size: 16px;
+    height: 60px;
+    border: 7px solid #84dfea;
+  }
+  .name-input {
+    margin-bottom: -7px;
+  }
+
+  .calender-input {
+    margin-bottom: -7px;
+  }
+  .tel-input {
+    margin-top: -28px;
+  }
+
+  .uploadcare--dialog__powered-by {
+    display: none;
+  }
+
+  .uploadcare--widget__file-name {
+    display: none;
+  }
+
+  .uploadcare--widget__file-size {
+    display: none;
+  }
+
+  .uploadcare--widget__button_type_open:active {
+    background: #ffffff00;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 26%;
+    top: 23%;
+    font-size: 21px;
+  }
+
+  .demographics-lock-icon {
+    position: relative;
+    left: 108%;
+    bottom: 30px;
+  }
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .uploadcare--widget__button {
+    border: none;
+    padding: 0.4em 1em;
+    width: auto;
+    position: absolute;
+    top: 392px;
+    right: 378px;
+    color: #0c0c0c;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .tel-input {
+    margin-top: -22px;
+  }
+
+  .demographics-lock-icon {
+    position: relative;
+    left: 104%;
+    top: 11%;
+    font-size: 20px;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 26%;
+    top: 21%;
+    font-size: 29px;
+  }
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .uploadcare--widget__button {
+    border: none;
+    padding: 0.4em 1em;
+    width: auto;
+    position: absolute;
+    top: 392px;
+    right: 378px;
+    color: #0c0c0c;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .tel-input {
+    margin-top: -27px;
+  }
+
+  .demographics-lock-icon {
+    position: relative;
+    left: 104%;
+    bottom: 30px;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 33%;
+    top: 17%;
+    font-size: 29px;
+  }
+
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1535px) {
+  .uploadcare--widget__button {
+    border: none;
+    padding: 0.4em 1em;
+    width: auto;
+    position: absolute;
+    top: 265px;
+    right: 390px;
+    color: #0c0c0c;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 700;
+    background: none;
+  }
+
+  .tel-input {
+    margin-top: -28px;
+  }
+
+  .demographics-lock-icon {
+    position: relative;
+    left: 104%;
+    bottom: 37px;
+  }
+
+  .uploadcare--widget__button_type_open {
+    left: 34%;
+    top: 16%;
+    font-size: 29px;
+  }
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
+  }
+}
+@media only screen and (min-width: 1536px) and (max-width: 1679px) {
+
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 44%;
+  }
+  .demographics-lock-icon {
+    position: relative;
+    left: 788px;
+    bottom: 35px;
+    font-size: 24px;
+}
+}
+@media only screen and (min-width: 1680px) and (max-width: 1791px) {
+
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .demographics-lock-icon {
+    position: relative;
+    left: 832px;
+    bottom: 35px;
+    font-size: 24px;
+}
+}
+@media only screen and (min-width: 1792px) and (max-width: 1899px) {
+
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 37%;
+  }
+  .demographics-lock-icon {
+    position: relative;
+    left: 892px;
+    bottom: 35px;
+    font-size: 24px;
+}
+}
+@media only screen and (min-width: 1900px) and (max-width: 2559px){
+
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 26%;
+  }
+  .demographics-lock-icon {
+    position: relative;
+    left: 960px;
+    bottom: 35px;
+    font-size: 24px;
+}
+}
+@media only screen and (min-width: 2560px) and (max-width: 3071px) {
+
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 26%;
+  }
+  .demographics-lock-icon {
+    position: relative;
+    left: 1284px;
+    bottom: 35px;
+    font-size: 24px;
+}
+}
+@media only screen and (min-width: 3072px) {
+
+  .image-upload {
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+  }
+  .demographics-lock-icon {
+    position: relative;
+    left: 1550px;
+    bottom: 35px;
+    font-size: 24px;
+}
+}
+

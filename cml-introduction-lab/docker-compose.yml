@@ -1,0 +1,111 @@
+version: "3.4"
+
+services:
+  web-app:
+    image: web-app-dev
+    build:
+      context: ../cml-introduction-webapp/.
+      target: base
+    command: npm start
+    tty: true
+    volumes:
+      - ../cml-introduction-webapp/.:/app
+      - /app/node_modules
+    ports:
+      - 9000:3000
+    environment:
+      REACT_APP_BACKEND_LOGIN_URL: http://localhost:9002
+      REACT_APP_BACKEND_API_BASE: http://localhost:9002
+      REACT_APP_OAUTH_DOMAIN: cml-intros-dev.auth.us-east-1.amazoncognito.com
+      # REACT_APP_AWS_COGNITO_IDENTITY_POOL_ID: eu-central-1:fa7d0343-f816-4d36-8b00-c7913a791a39
+      REACT_APP_AWS_USER_POOL_ID: us-east-1_DAL8c430F
+      REACT_APP_AWS_USER_POOL_WEB_CLIENT_ID: 39o5chjvklgbmilaa74qedvfkf
+      REACT_APP_PAYPAL_CLIENT_ID: AW60MAlMj0mC9U9xanND2O7-puZYpb6OmmsvEhTjHAT7Gn62O9ya3zXNWv-MfemOizQXUugH36rlmz1z
+      REACT_APP_USER_POOL_ID: us-east-1_DAL8c430F
+      REACT_APP_CLIENT_ID: 39o5chjvklgbmilaa74qedvfkf
+      REACT_APP_AWS_REGION: us-east-1
+      REACT_APP_AWS_ACCESS_KEY_ID: "AKIAXQMQA3JCKZWGSG5N"
+      REACT_APP_AWS_SECRET_ACCESS_KEY: "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"
+      # REACT_APP_LOGIN_HOST: https://cml-intros-dev.auth.us-east-1.amazoncognito.com
+      REACT_APP_POST_LOGIN_URL: http://localhost:9000/post-login/
+      REACT_APP_LOGOUT_URL: http://localhost:9000/login/
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "1"
+  web-app-admin:
+    image: web-app-admin
+    build:
+      context: ../cmli-admin-webapp/.
+      target: base
+    command: npm start
+    tty: true
+    volumes:
+      - ../cmli-admin-webapp/.:/app
+      - /app/node_modules
+    ports:
+      - 9001:3000
+    environment:
+      REACT_APP_BACKEND_LOGIN_URL: http://localhost:9002
+      REACT_APP_BACKEND_API_BASE: http://localhost:9002
+      REACT_APP_PAYPAL_CLIENT_ID: AW60MAlMj0mC9U9xanND2O7-puZYpb6OmmsvEhTjHAT7Gn62O9ya3zXNWv-MfemOizQXUugH36rlmz1z
+      REACT_APP_USER_POOL_ID: us-east-1_DAL8c430F
+      REACT_APP_CLIENT_ID: 3obkcp9orfcf0ptbnt3tjhim0m
+      REACT_APP_AWS_REGION: us-east-1
+      REACT_APP_LOGIN_HOST: https://cml-intros-dev.auth.us-east-1.amazoncognito.com
+      REACT_APP_POST_LOGIN_URL: http://localhost:9001/post-login/
+      REACT_APP_LOGOUT_URL: http://localhost:9001/login/
+      REACT_APP_GOOGLE_MAP_API_KEY: AIzaSyDbjpN4b--X7EpOyAaM13EUvh843IuFZ-o
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "1"
+  backend:
+    image: backend-dev
+    build: ../cml-introduction-backend/.
+    volumes:
+      - ../cml-introduction-backend/:/app
+    working_dir: /app
+    command: bundle exec puma
+    ports:
+      - 9002:3000
+    depends_on:
+      - dbupdate
+    environment:
+      AWS_REGION: "us-east-1"
+      AWS_USER_POOL_ID: "us-east-1_DAL8c430F"
+      # AWS_ACCESS_KEY_ID: "AKIAXQMQA3JCKZWGSG5N"
+      # AWS_SECRET_ACCESS_KEY: "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"
+      DATABASE_URL: postgres://postgres@db
+      WEB_APP_DASHBOARD_URL: http://localhost:9000
+      PAYPAL_CLIENT_ID: "AW60MAlMj0mC9U9xanND2O7-puZYpb6OmmsvEhTjHAT7Gn62O9ya3zXNWv-M\
+        femOizQXUugH36rlmz1z"
+      PAYPAL_SECRET: "EHL8TPUuY7VJ8msIAweyz6A0x0F-NIUEU37H55wZ5VKgWueHcxuDiBycpDOS58W\
+        Y16IIAIZMndqgKjyi"
+      PROFILE_URL: http://localhost:9000/profile
+      RSVP_NO_URL: http://localhost:9000/rsvp-no/
+      RSVP_YES_URL: http://localhost:9000/rsvp-yes/
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "1"
+    tty: true
+    stdin_open: true
+  db:
+    image: postgres:11.1-alpine
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "1"
+  dbupdate:
+    image: postgres:13.5-alpine
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "1"

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CML</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/3342089602.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <div class="header-section">
+        <div class="container-fluid sign-in">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="flex g-fb-icons-content">
+                        <div class="sign-in-input-container google-login">
+                            <img src="./images/search.svg" alt="" class="google-icon" />
+                            <input class="google-login-input" type="button" value="Login" />
+                        </div>
+                        <div class="sign-in-input-container facebook-login">
+                            <img src="./images/facebookwhite.svg" alt="" class="facebook-icon" />
+                            <input class="fb-login-input" type="button" value="Login" />
+                        </div>
+                        <span class="seperator">or</span>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <form>
+                        <div class="flex sign-in-form-content">
+                            <div class="sign-in-input-container">
+                                <i class="far fa-envelope message-icon"></i>
+                                <input class="sign-in-form-field" type="text" placeholder="email address" />
+                            </div>
+                            <div class="sign-in-input-container">
+                                <i class="fa fa-lock sign-in-lock-icon"></i>
+                                <input class="sign-in-form-field" type="password" placeholder="your password" />
+                            </div>
+                        </div>
+                        <div class="logged-in-content">
+                            <div class="logged-in-checkbox">
+                                <input type="checkbox" id="logged-in" value="" />
+                                <label> Stay Logged In</label>
+                                <p>Forget Password</p>
+                            </div>
+                            <div class="sign-in-btn">
+                                <button type="button">Sign In</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Section End -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="CML-logo">
+                    <img src="./images/logo.png" alt="" />
+                </div>
+                <div class="logo-text">
+                    <b>INTRODUCTION</b>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+
+    <!-- Sign In Section Start -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 col-sm-5 col-lg-5 col-xl-5 col-12">
+                <div class="sign-up-form">
+                    <p class="form-heading">I'm looking for</p>
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-6 col-lg-6 col-xl-6">
+                            <label class="radio-inline husband-btn">
+                                <input type="radio" name="optradio" class="radioShow" /> a
+                                husband
+                            </label>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-6 col-lg-6 col-xl-6">
+                            <label class="radio-inline wife-btn">
+                                <input type="radio" name="optradio" class="radioShow" /> a
+                                wife
+                            </label>
+                        </div>
+                    </div>
+
+                    <form>
+                        <div class="show">
+                            <div class="input-container">
+                                <i class="far fa-envelope message-icon"></i>
+                                <input class="form-field" type="text" placeholder="email address" />
+                            </div>
+                            <div class="input-container">
+                                <i class="fa fa-lock lock-icon"></i>
+                                <input class="form-field" type="password" placeholder="create your password" />
+                            </div>
+                            <p class="form-content">
+                                "BY CLICKING BELOW TO SIGN UP, YOU CONFIRM THAT YOU AGREE TO
+                                OUR TERMS AND CONDITIONS."
+                            </p>
+                        </div>
+                        <div class="join-now-btn">
+                            <button type="button">Join Now</button>
+                        </div>
+                    </form>
+
+                    <div class="show">
+                        <p class="divider">or</p>
+                        <div class="input-container">
+                            <img src="./images/facebook.svg" alt="" class="facebook-icon" />
+                            <input class="fb-field" type="button" value="Sign up with Facebook" />
+                        </div>
+                        <div class="input-container">
+                            <img src="./images/search.svg" alt="" class="google-icon" />
+                            <input class="google-field" type="button" value="Sign up with Google" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-7 col-sm-7 col-lg-7 col-xl-7 col-12">
+                <div class="sign-up-img">
+                    <img src="./images/signup-img.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign in Section End -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $(".show").hide();
+        });
+        $(".radioShow").click(function () {
+            $(".show").show();
+        });
+    </script>
+</body>
+
+</html>

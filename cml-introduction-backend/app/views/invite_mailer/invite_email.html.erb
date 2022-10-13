@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CML</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+    .email-body{
+      background-image: linear-gradient(#eeeeee, #2bbbd3);
+      padding-bottom:50px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: sans-serif;
+    }
+      
+      a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+      }
+      
+      .invited-email-cml-logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+      }
+
+      .invited-email-title p {
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        color: #2bbbd3;
+      }
+
+      .invited-email-content {
+        width: 50%;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.75);
+      }
+
+      .invited-first-emoji {
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      .invited-second-emoji {
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      p.invited-content-title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        color: #2bbbd3;
+        padding-top: 32px;
+      }
+
+      .invited-email-text {
+        width: 90%;
+        margin: auto;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      p.invited-email-text {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 12px;
+        font-weight: 400;
+      }
+
+      .invited-email-info {
+        background: white;
+        width: 100%;
+        margin: auto;
+
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      .invited-email-btns {
+        padding-bottom: 32px;
+        display: flex;
+        width: 38%;
+        margin: auto;
+      }
+      .invitation-reject-btn {
+        margin-right: 30px;
+      }
+
+      .invitation-reject-btn button {
+        padding: 9px 20px 9px 20px;
+        background-color: rgb(43, 187, 211);
+        border: 1px solid white;
+        color: white;
+      }
+      .invitation-accept-btn button {
+        padding: 15px 30px 15px 30px;
+        background-color: rgb(43, 187, 211);
+        border: 1px solid white;
+        color: white;
+      }
+
+      p.invited-send-date-time {
+        padding-left: 20px;
+        padding-top: 11px;
+      }
+
+      p.invited-send-location {
+        padding-left: 20px;
+        padding-bottom: 11px;
+      }
+      .footer-div{
+        padding-top: 20px;
+        padding-botto: 20px;
+        background-color: lightblue;
+        width:100%;
+        height:40px;
+      }
+      .footer-left{
+        width:40%;
+        float:left;
+      }
+      .footer-right{
+        width:60%;
+        float:left;
+      }
+  
+      .cml-title{
+        font-size:16px;
+        text-align: center;
+        margin-top:5px;
+        font-weight: 600;
+      } 
+      .contact-heading {
+        font-size:16px;
+        text-align: center;
+        margin-top:5px;
+        font-weight: 600;
+      } 
+      .cml-contact-section{
+        font-size:12px;
+        text-align: center;
+        margin-top:5px;
+        font-weight: 500;
+      }
+      .i {  
+        color:  #e43193;
+        position: relative;
+          }
+           .i:before {
+            content: "ı";
+            position: absolute; 
+            color: #2bbbd3;
+          }
+  
+
+      @media only screen and (max-width: 767px) and (min-width: 375px) {
+        .invited-email-content {
+          width: 90%;
+          margin: auto;
+          background: rgba(255, 255, 255, 0.75);
+        }
+        .invited-email-btns {
+          padding-bottom: 32px;
+          display: block;
+          width: 46%;
+          margin: auto;
+        }
+        .invitation-reject-btn {
+          margin-right: 0px;
+          text-align: center;
+        }
+        .invitation-accept-btn {
+          text-align: center;
+        }
+      }
+      @media only screen and (max-width: 992px) and (min-width: 768px) {
+        .invited-email-content {
+          width: 90%;
+          margin: auto;
+          background: rgba(255, 255, 255, 0.75);
+        }
+        .invited-email-btns {
+          padding-bottom: 32px;
+          display: flex;
+          width: 40%;
+          margin: auto;
+        }
+        .invitation-reject-btn {
+          margin-right: 30px;
+        }
+      }
+      @media only screen and (max-width: 1024px) and (min-width: 992px) {
+        .invited-email-content {
+          width: 90%;
+          margin: auto;
+          background: rgba(255, 255, 255, 0.75);
+        }
+        .invited-email-btns {
+          padding-bottom: 32px;
+          display: flex;
+          width: 30%;
+          margin: auto;
+        }
+        .invitation-reject-btn {
+          margin-right: 30px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+  <div class="email-body">
+    <div class="invited-email-cml-logo">
+      <img src="./images/cml-logo.png" alt="" />
+    </div>
+    <div class="invited-email-title">
+    <p>Center for Musl<span class="i">i</span>m L<span class="i">i</span>fe</p>
+    </div>
+    <div class="invited-email-content">
+      <p class="invited-content-title">
+        <span class="first-emoji">🎊</span> You're Invited!<span class="second-emoji">🥳</span>
+      </p>
+      <div class="invited-email-text">
+      <% if @body.nil?%>
+        <p>
+        Put your best foot forward! You are invited to our CML Introductions Moderated event! Box. Please make sure your Compatibility Quiz is up to date before you arrive. You will also need your phone for the event. The location will be revealed the day prior to the event. Will you be able to make it?
+        </p>
+      <% else%>
+        <p> <%= @body %> </p>
+      <% end %>
+
+        <div class="invited-email-info">
+          <p class="invited-send-date-time"><b>When:</b><%= @event.date_time %></p>
+          <p class="invited-send-location"><b>Where:</b> disclosed later</p>
+        </div>
+        <p>
+          Make sure you RSVP so we can prepare for you! While you're there, make sure your profile is up to date before
+          you arrive so prospective spouses can know you better! Will you be able to make it?
+        </p>
+      </div>
+      <div class="invited-email-btns">
+
+        <div class="invitation-reject-btn">
+          <button><a href= <%=ENV['RSVP_NO_URL']%><%= @event.id %>/invite/<%= @invitation.id %> target="_blank">I can't make it</a></button>
+        </div>
+        <div class="invitation-accept-btn">
+          <button><a href= <%=ENV['RSVP_YES_URL']%><%= @event.id %>/invite/<%= @invitation.id %> target="_blank">Yes!</a></button>
+        </div>
+      </div>
+      <div class="footer-div">
+      <div class="footer-left">
+        <p class="cml-title">CML Introductions</p>
+      </div>
+      <div class="footer-right">
+        <p class="cml-contact-section"><span class="contact-heading">Contact Us:</span> info@centerformuslimlife.com</p>
+      </div>
+   </div>
+    </div>
+    </div>
+  </body>
+</html>

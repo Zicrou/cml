@@ -1,0 +1,98 @@
+
+   .existingchild-cml-logo {
+    margin-bottom: 19px;
+  }
+  .existingchild-sub-heading-1 {
+    color: #080808;
+    font-size: 24px;
+    opacity: 0.5;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 24px;
+  }
+  
+  .existingchild-sub-heading-2 p {
+    font-size: 28px;
+    opacity: 0.5;
+    font-weight: 400;
+  }
+  
+  .existingchild-header-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .existingchild-continue-btns button {
+    border: 1px solid white;
+    background-color: #2bbbd3;
+    padding: 10px 50px 10px 50px;
+    border-radius: 4px;
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .existingchild-custom-radio-btn.active {
+    background-color: #70dae4;
+    color: black;
+    border: none;
+  }
+  
+  .existingchild-custom-radio-btn {
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #e4f6f8;
+    color: #999999;
+  }
+  
+  .existingchild-details-textarea {
+    border: 7px solid #dcf5f8;
+    border-radius: 4px;
+     width: 100%;
+     margin-top: 10px;
+   }
+   
+   .existingchild-textarea {
+     width: 100%;
+     margin: auto;
+   }
+   .details-textarea {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .existingchild-details-textarea::placeholder {
+    padding-left: 5px;
+    padding-top: 3px;
+  }
+  
+  .existingchild-progress {
+    display: flex;
+    overflow: hidden;
+    line-height: 0;
+    height: 1rem;
+    font-size: 0.75rem;
+    background-color: #f6d0e2;
+    border: 1px solid #e43193;
+    border-radius: 10px;
+    margin-top: 6px;
+  }
+    
+  .existingchild-continue-btns {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .existingchild-radiobtns {
+    display: block;
+  }
+  
+  .existingchild-custom-radio-btn input[type='radio'] {
+    padding: 0;
+    opacity: 0;
+    margin-left: -13px;
+  }

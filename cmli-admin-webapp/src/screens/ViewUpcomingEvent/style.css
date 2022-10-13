@@ -1,0 +1,531 @@
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+i#edit-event-icon {
+  font-size: 23px;
+  margin-left: 20px;
+}
+.future-event-personal-info-title {
+  padding-left: 20px;
+}
+span.future-event-age-info-headings {
+  padding-left: 0;
+}
+span.future-event-rsvp-info-headings {
+  padding-left: 8px;
+}
+
+span.future-event-yes-info-headings {
+  padding-left: 0px;
+}
+.row-width {
+  width: 101%;
+  margin: auto;
+}
+.col-md-1.col-lg-1.event-yes-style {
+  margin-right: 6px;
+}
+.col-md-1.col-lg-1.event-rsvp-style {
+  margin-right: 6px;
+}
+.event-yes-style {
+  text-align: center;
+}
+.event-rsvp-style {
+  text-align: center;
+}
+.event-age-style {
+  text-align: center;
+}
+.event-status-style {
+  text-align: center;
+}
+.event-events-style {
+  text-align: center;
+}
+.event-empty-col-style {
+  text-align: center;
+}
+span.future-event-status-info-headings {
+  margin-left: -6px;
+}
+.no-user-found {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.alert-dismissible .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.2rem 0.2rem;
+  color: #155724;
+  background: none;
+}
+
+.row.upcoming-events-btn-grp {
+  padding-top: 20px;
+  text-align: center;
+}
+.invite-with-pictures-people-btn button {
+  padding: 7px 25px 7px 25px;
+  background-color: rgb(43, 187, 211);
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.future-event-logo-title {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.future-event-events-btn {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.future-event-people-btn {
+  text-align: center;
+}
+.upcoming-events-scroll-bar {
+  height: 350px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.future-event-events-btn button {
+  padding: 7px 40px 7px 40px;
+  background-color: rgb(228, 49, 147);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.future-event-people-btn button {
+  padding: 7px 40px 7px 40px;
+  background-color: rgb(43, 187, 211);
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.event-details-future-event-title {
+  text-align: center;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.event-details-future-event-map img {
+  width: 100%;
+  height: 288px;
+}
+
+.event-details-future-event-content {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.event-details-future-event-content {
+  background-color: rgba(43, 187, 211, 0.25);
+  margin-right: 30px;
+  margin-top: 4%;
+  padding: 2%;
+}
+
+.people-match-btns {
+  display: flex;
+  padding-bottom: 40px;
+  width: 21%;
+  margin: auto;
+}
+
+.future-event-details-people-btn button {
+  padding: 5px 35px 5px 35px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 4px 0px 0px 4px;
+}
+
+.future-event-match-btn button {
+  padding: 5px 35px 5px 35px;
+  border: none;
+  background-color: rgb(43, 187, 211);
+  border-radius: 0px 4px 4px 0px;
+  border-left: 1px solid white;
+}
+
+.event-details-future-event-location {
+  font-size: 21px;
+}
+
+.future-events-women-select-button {
+  margin: 0px 5px 5px 0px;
+  border-radius: 4px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #ffdcef;
+  border: 3px solid white;
+}
+
+.future-events-men-select-button {
+  margin: 0px 5px 5px 0px;
+  border-radius: 4px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(43, 187, 211, 0.25);
+  border: 3px solid white;
+}
+
+.future-event-thumbs-down {
+  margin-right: 8px;
+  color: black;
+  background-color: rgb(242, 132, 192);
+}
+
+.future-event-personal-info {
+  width: 100%;
+  margin-left: 0%;
+  text-align: right;
+}
+
+.future-event-heart-icon {
+  font-size: 21px;
+  margin-right: 13px;
+}
+
+.remove-space {
+  margin-top: -7px;
+}
+.future-event-top-content {
+  margin-bottom: 7%;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+  .people-match-btns {
+    display: block;
+    padding-bottom: 40px;
+    width: 50%;
+    margin: auto;
+  }
+  .past-event-details-people-btn {
+    text-align: center;
+}
+.past-event-match-btn {
+  text-align: center;
+}
+.past-event-chart-btn {
+  text-align: center;
+}
+  .event-age-style {
+    text-align: center;
+    margin-left: 10px;
+  }
+  span.badge.badge-pill.badge-info.future-event-RSVP {
+   font-size: 10px;
+  }
+  span.badge.badge-pill.badge-info.future-event-thumbs-up {
+    font-size: 10px;
+  }
+  span.badge.badge-pill.badge-info.future-event-age {
+    font-size: 10px;
+  }
+  span.badge.badge-pill.badge-info.future-event-status {
+    font-size: 10px;
+  }
+  span.badge.badge-pill.badge-info.future-event-events {
+    font-size: 10px;
+  }
+  span.future-event-status-info-headings {
+    margin-left: 3px;
+  }
+  span.future-event-age-info-headings {
+    margin-left: 21px;
+  }
+  span.future-event-rsvp-info-headings {
+    padding-left: 22px;
+  }
+  .future-event-tick {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+    color: black;
+  }
+
+  .future-event-personal-info {
+    width: 100%;
+    margin-left: 2%;
+    text-align: left;
+  }
+
+  .future-event-heart-icon {
+    font-size: 21px;
+    margin-right: 1px;
+  }
+
+  .future-event-cml-logo {
+    text-align: center;
+  }
+
+  .event-details-future-event-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+  .future-event-yes-info-headings {
+    margin-left: 26px;
+    margin-right: 4px;
+  }
+
+}
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+  .future-event-tick {
+    padding: 6px 20px 6px 20px;
+    margin-right: 1px;
+    color: black;
+  }
+  span.future-event-status-info-headings {
+    margin-left: 10px;
+  }
+  span.future-event-events-info-headings {
+    padding-left: 9px;
+}
+span.badge.badge-pill.badge-info.future-event-RSVP {
+  font-size: 10px;
+ }
+ span.badge.badge-pill.badge-info.future-event-thumbs-up {
+   font-size: 10px;
+ }
+ span.badge.badge-pill.badge-info.future-event-age {
+   font-size: 10px;
+ }
+ span.badge.badge-pill.badge-info.future-event-status {
+   font-size: 10px;
+ }
+ span.badge.badge-pill.badge-info.future-event-events {
+   font-size: 10px;
+ }
+  span.future-event-rsvp-info-headings {
+    padding-left: 25px;
+  }
+  span.future-event-yes-info-headings {
+    padding-left: 25px;
+  }
+  span.future-event-age-info-headings {
+    padding-left: 23px;
+}
+
+  .people-match-btns {
+    display: block;
+    margin-bottom: 40px;
+    width: 50%;
+    margin: auto;
+  }
+  .past-event-details-people-btn {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.past-event-match-btn {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.past-event-chart-btn {
+  margin-bottom: 10px;
+  text-align: center;
+}
+  .future-event-personal-info {
+    width: 100%;
+    margin-left: 2%;
+    text-align: left;
+  }
+
+  .future-event-heart-icon {
+    font-size: 21px;
+    margin-right: 1px;
+  }
+
+  .future-event-cml-logo {
+    text-align: center;
+  }
+
+  .event-details-future-event-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+  .future-event-yes-info-headings {
+    margin-left: 7px;
+    margin-right: 4px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .future-event-events-btn button {
+    padding: 5px 32px 5px 32px;
+    background-color: rgb(228, 49, 147);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  .event-age-style {
+    text-align: center;
+    margin-left: 10px;
+  }
+  span.future-event-rsvp-info-headings {
+    margin-left: 7px;
+  }
+  span.future-event-age-info-headings {
+    padding-left: 7px;
+}
+span.future-event-status-info-headings {
+  margin-left: 0px;
+}
+  .people-match-btns {
+    display: flex;
+    padding-bottom: 40px;
+    width: 42%;
+    margin: auto;
+  }
+
+  .future-event-people-btn button {
+    padding: 5px 32px 5px 32px;
+    background-color: rgb(43, 187, 211);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+
+  .future-event-thumbs-up {
+    color: black;
+  }
+  .future-event-thumbs-down {
+    color: black;
+    background-color: rgb(242, 132, 192);
+  }
+  .event-listing-cml-logo {
+    text-align: center;
+  }
+
+  .event-details-future-event-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+
+  .invite-with-pictures-people-btn button {
+    padding: 7px 4px 7px 4px;
+    background-color: rgb(43, 187, 211);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1300px) {
+
+  span.badge.badge-pill.badge-info.future-event-RSVP {
+    font-size: 10px;
+   }
+   span.badge.badge-pill.badge-info.future-event-thumbs-up {
+     font-size: 10px;
+   }
+   span.badge.badge-pill.badge-info.future-event-age {
+     font-size: 10px;
+   }
+   span.badge.badge-pill.badge-info.future-event-status {
+     font-size: 10px;
+   }
+   span.badge.badge-pill.badge-info.future-event-events {
+     font-size: 10px;
+   }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .future-event-thumbs-up {
+    color: black;
+  }
+  .future-event-thumbs-down {
+    color: black;
+    background-color: rgb(242, 132, 192);
+  }
+  .people-match-btns {
+    display: flex;
+    padding-bottom: 40px;
+    width: 31%;
+    margin: auto;
+  }
+  .event-age-style {
+    text-align: center;
+    margin-left: 10px;
+  }
+
+
+  .event-listing-cml-logo {
+    text-align: center;
+  }
+
+  .event-details-future-event-content {
+    background-color: rgba(43, 187, 211, 0.25);
+    margin-right: 0px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+
+  .invite-with-pictures-people-btn button {
+    padding: 7px 24px 7px 24px;
+    background-color: rgb(43, 187, 211);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+  .future-event-thumbs-up {
+    color: black;
+  }
+  .future-event-thumbs-down {
+    color: black;
+    background-color: rgb(242, 132, 192);
+  }
+  .people-match-btns {
+    display: flex;
+    padding-bottom: 40px;
+    width: 31%;
+    margin: auto;
+  }
+  .event-age-style {
+    text-align: center;
+    margin-left: 10px;
+  }
+
+}
+
+
+@media only screen and (min-width: 2560px) {
+  span.future-event-status-info-headings {
+    margin-left: 0px;
+  }
+}

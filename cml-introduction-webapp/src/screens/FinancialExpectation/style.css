@@ -1,0 +1,52 @@
+.fin-expections-cml-logo {
+margin-bottom: 19px;
+}
+.fin-expections-sub-heading-1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.fin-expections-sub-heading-1 p {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.fin-expections-header-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fin-expections-continue-btns button {
+  border: 1px solid white;
+  background-color: #2bbbd3;
+  padding: 10px 50px 10px 50px;
+  border-radius: 4px;
+  color: white;
+  margin-left: 20px;
+}
+
+.fin-expections-continue-btns {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fin-expections-details-textarea {
+  border: 7px solid #dcf5f8;
+  border-radius: 4px;
+   width: 100%;
+   margin-top: 10px;
+ }
+ 
+ .fin-expections-textarea {
+   width: 100%;
+   margin: auto;
+ }
+
+.fin-expections-details-textarea::placeholder {
+  padding-left: 5px;
+  padding-top: 3px;
+}
+

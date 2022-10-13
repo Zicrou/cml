@@ -1,0 +1,8 @@
+.paid-event-input{
+    padding-left: 10px;
+    color: rgb(134, 142, 150);
+    font-size: 20px;
+}
+input.paid-event-input::placeholder {
+    padding-left: 0px;
+}
